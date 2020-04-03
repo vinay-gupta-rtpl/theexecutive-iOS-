@@ -1,0 +1,198 @@
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "0Xa-7l-zpR"; */
+"0Xa-7l-zpR.placeholder" = "Mobile Number";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "0uG-Sv-LlJ"; */
+"0uG-Sv-LlJ.placeholder" = "First Name";
+
+/* Class = "UITextField"; placeholder = "Code"; ObjectID = "1Jn-BO-dTp"; */
+"1Jn-BO-dTp.placeholder" = "Code";
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "1Op-ku-zEM"; */
+"1Op-ku-zEM.placeholder" = "Country";
+
+/* Class = "UITextField"; placeholder = "State"; ObjectID = "29W-YA-1zh"; */
+"29W-YA-1zh.placeholder" = "State";
+
+/* Class = "UITextField"; placeholder = "Zip/Postal Code"; ObjectID = "2BK-pf-hjO"; */
+"2BK-pf-hjO.placeholder" = "Zip/Postal Code";
+
+/* Class = "UILabel"; text = "date"; ObjectID = "2GS-eW-mdo"; */
+"2GS-eW-mdo.text" = "date";
+
+/* Class = "UIViewController"; title = "addAddressVC"; ObjectID = "35T-5J-3wj"; */
+"35T-5J-3wj.title" = "addAddressVC";
+
+/* Class = "UITabBarItem"; title = "MY ACCOUNT"; ObjectID = "5ZZ-71-Nts"; */
+"5ZZ-71-Nts.title" = "MY ACCOUNT";
+
+/* Class = "UIButton"; normalTitle = "LOGOUT"; ObjectID = "73R-VZ-X56"; */
+"73R-VZ-X56.normalTitle" = "LOGOUT";
+
+/* Class = "UITextField"; placeholder = "Transfer date"; ObjectID = "A4l-OX-9Zd"; */
+"A4l-OX-9Zd.placeholder" = "Transfer date";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "CcF-A3-hjY"; */
+"CcF-A3-hjY.placeholder" = "First Name";
+
+/* Class = "UILabel"; text = "Shipping Address"; ObjectID = "Di9-1T-RqI"; */
+"Di9-1T-RqI.text" = "Shipping Address";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "Dyy-W8-gJf"; */
+"Dyy-W8-gJf.placeholder" = "Last Name";
+
+/* Class = "UILabel"; text = "description"; ObjectID = "E2U-qC-MT9"; */
+"E2U-qC-MT9.text" = "description";
+
+/* Class = "UITextField"; placeholder = "Bank Recipient"; ObjectID = "Ebb-Ed-L6Z"; */
+"Ebb-Ed-L6Z.placeholder" = "Bank Recipient";
+
+/* Class = "UITextField"; text = "BCA – 494 3013 775"; ObjectID = "Ebb-Ed-L6Z"; */
+"Ebb-Ed-L6Z.text" = "BCA – 494 3013 775";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "Evp-f1-nI9"; */
+"Evp-f1-nI9.placeholder" = "City";
+
+/* Class = "UILabel"; text = "Subscribe to Newsletter"; ObjectID = "Exd-so-mxq"; */
+"Exd-so-mxq.text" = "Subscribe to Newsletter";
+
+/* Class = "UITextField"; placeholder = "Order Number"; ObjectID = "Fvo-AE-jVJ"; */
+"Fvo-AE-jVJ.placeholder" = "Order Number";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "IoM-Xe-IVG"; */
+"IoM-Xe-IVG.placeholder" = "Email Address";
+
+/* Class = "UILabel"; text = "Transaction Information"; ObjectID = "IwA-fm-gLd"; */
+"IwA-fm-gLd.text" = "Transaction Information";
+
+/* Class = "UIViewController"; title = "myInformationVC"; ObjectID = "Khp-W9-BDL"; */
+"Khp-W9-BDL.title" = "myInformationVC";
+
+/* Class = "UIButton"; normalTitle = "Go to Notification Setting"; ObjectID = "NKK-Ax-buU"; */
+"NKK-Ax-buU.normalTitle" = "Go to Notification Setting";
+
+/* Class = "UITextField"; placeholder = "Street Adress Line 1"; ObjectID = "NOu-YW-8Wb"; */
+"NOu-YW-8Wb.placeholder" = "Street Adress Line 1";
+
+/* Class = "UILabel"; text = "Change Password"; ObjectID = "Nur-hR-n42"; */
+"Nur-hR-n42.text" = "Change Password";
+
+/* Class = "UITextField"; placeholder = "Code"; ObjectID = "O8d-Qk-7kw"; */
+"O8d-Qk-7kw.placeholder" = "Code";
+
+/* Class = "UILabel"; text = "John Doe"; ObjectID = "Oa4-10-Qjj"; */
+"Oa4-10-Qjj.text" = "John Doe";
+
+/* Class = "UITextField"; placeholder = "Transfer Method"; ObjectID = "Oum-oe-6ia"; */
+"Oum-oe-6ia.placeholder" = "Transfer Method";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "PsA-u9-OgD"; */
+"PsA-u9-OgD.placeholder" = "Mobile Number";
+
+/* Class = "UITextField"; placeholder = "Street Address Line 2"; ObjectID = "Q8t-EO-wSi"; */
+"Q8t-EO-wSi.placeholder" = "Street Address Line 2";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "Tvi-q6-7qG"; */
+"Tvi-q6-7qG.text" = "Settings";
+
+/* Class = "UILabel"; text = "Set as Default"; ObjectID = "UlL-Rf-c85"; */
+"UlL-Rf-c85.text" = "Set as Default";
+
+/* Class = "UILabel"; text = "IV/25 Pondok Betun Tangerang 15224, Indoesia"; ObjectID = "WK3-Mf-tKc"; */
+"WK3-Mf-tKc.text" = "IV/25 Pondok Betun Tangerang 15224, Indoesia";
+
+/* Class = "UILabel"; text = "+62 523413245"; ObjectID = "XLs-D4-dKP"; */
+"XLs-D4-dKP.text" = "+62 523413245";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "XMW-MN-5xv"; */
+"XMW-MN-5xv.placeholder" = "Email Address";
+
+/* Class = "UILabel"; text = "My Orders"; ObjectID = "Y7R-qB-YNX"; */
+"Y7R-qB-YNX.text" = "My Orders";
+
+/* Class = "UILabel"; text = "Select Language"; ObjectID = "YIR-fw-gZJ"; */
+"YIR-fw-gZJ.text" = "Select Language";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "YOa-Jo-far"; */
+"YOa-Jo-far.text" = "Notifications";
+
+/* Class = "UILabel"; text = "Bank Transfer Confirmation"; ObjectID = "Yim-BI-Zn9"; */
+"Yim-BI-Zn9.text" = "Bank Transfer Confirmation";
+
+/* Class = "UILabel"; text = "My Information"; ObjectID = "a1I-FY-3xC"; */
+"a1I-FY-3xC.text" = "My Information";
+
+/* Class = "UIButton"; normalTitle = "Remove"; ObjectID = "bql-mh-Rs4"; */
+"bql-mh-Rs4.normalTitle" = "Remove";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "c8C-b1-ctf"; */
+"c8C-b1-ctf.placeholder" = "Last Name";
+
+/* Class = "UILabel"; text = "Mobile Number : "; ObjectID = "cLh-gJ-Fg9"; */
+"cLh-gJ-Fg9.text" = "Mobile Number : ";
+
+/* Class = "UILabel"; text = "Buying Guide"; ObjectID = "dLj-z3-BCF"; */
+"dLj-z3-BCF.text" = "Buying Guide";
+
+/* Class = "UITextField"; placeholder = "Zip/Postal Code"; ObjectID = "dLk-qy-dvM"; */
+"dLk-qy-dvM.placeholder" = "Zip/Postal Code";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "ect-ax-xpb"; */
+"ect-ax-xpb.placeholder" = "Last Name";
+
+/* Class = "UILabel"; text = "Bank Account Information"; ObjectID = "fMs-Tv-jhu"; */
+"fMs-Tv-jhu.text" = "Bank Account Information";
+
+/* Class = "UITextField"; placeholder = "State"; ObjectID = "gNJ-36-3Zr"; */
+"gNJ-36-3Zr.placeholder" = "State";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "gOQ-x6-mcP"; */
+"gOQ-x6-mcP.placeholder" = "City";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "gVO-B1-RL5"; */
+"gVO-B1-RL5.normalTitle" = "SUBMIT";
+
+/* Class = "UITextField"; placeholder = "Street Address Line 2"; ObjectID = "gZT-UU-IN8"; */
+"gZT-UU-IN8.placeholder" = "Street Address Line 2";
+
+/* Class = "UILabel"; text = "Contact us"; ObjectID = "isH-f5-Ytu"; */
+"isH-f5-Ytu.text" = "Contact us";
+
+/* Class = "UITextField"; placeholder = "Bank Name"; ObjectID = "kV9-bd-G0E"; */
+"kV9-bd-G0E.placeholder" = "Bank Name";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "kyP-UA-Sd3"; */
+"kyP-UA-Sd3.normalTitle" = "Edit";
+
+/* Class = "UITextField"; placeholder = "Street Adress Line 1"; ObjectID = "mZc-mV-CEX"; */
+"mZc-mV-CEX.placeholder" = "Street Adress Line 1";
+
+/* Class = "UINavigationItem"; title = "My Account"; ObjectID = "mkN-15-05H"; */
+"mkN-15-05H.title" = "My Account";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "odX-hL-y05"; */
+"odX-hL-y05.placeholder" = "First Name";
+
+/* Class = "UITextField"; placeholder = "Holder Account Number"; ObjectID = "onG-nJ-0CZ"; */
+"onG-nJ-0CZ.placeholder" = "Holder Account Number";
+
+/* Class = "UILabel"; text = "To change the notification setting, Go to the notification panel."; ObjectID = "poL-Up-Qw8"; */
+"poL-Up-Qw8.text" = "To change the notification setting, Go to the notification panel.";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "qYF-gq-SXo"; */
+"qYF-gq-SXo.normalTitle" = "SAVE";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "rJf-1g-UU3"; */
+"rJf-1g-UU3.normalTitle" = "SAVE";
+
+/* Class = "UITextField"; placeholder = "Transfer Amount"; ObjectID = "s8M-7E-Y05"; */
+"s8M-7E-Y05.placeholder" = "Transfer Amount";
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "t1O-C4-dZI"; */
+"t1O-C4-dZI.placeholder" = "Country";
+
+/* Class = "UITextField"; text = "Attachment"; ObjectID = "x5r-PV-uxv"; */
+"x5r-PV-uxv.text" = "Attachment";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "z3g-ll-yBy"; */
+"z3g-ll-yBy.text" = "title";

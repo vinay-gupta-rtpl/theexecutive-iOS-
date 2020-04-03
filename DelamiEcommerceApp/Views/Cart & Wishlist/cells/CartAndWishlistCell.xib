@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+        <array key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CartAndWishlistCell" rowHeight="141" id="5jr-DN-euU" customClass="CartAndWishlistCell" customModule="DelamiEcommerceApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="219"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5jr-DN-euU" id="04v-1I-BuD">
+                <rect key="frame" x="0.0" y="0.0" width="406" height="218.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="V44-Is-nwc">
+                        <rect key="frame" x="16" y="15" width="370" height="188.5"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZO2-Ce-zVx">
+                                <rect key="frame" x="0.0" y="0.0" width="370" height="188.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="VYH-Q4-cAp">
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="159"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="hiB-Xj-CIY">
+                                                <rect key="frame" x="0.0" y="0.0" width="110" height="159"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="159" id="FsA-5Z-8ug"/>
+                                                    <constraint firstAttribute="width" constant="110" id="lLR-Pe-8x3"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Z38-ZG-GX5">
+                                                <rect key="frame" x="0.0" y="159" width="110" height="0.0"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Out of Stock" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uzg-H7-ItY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="0.0"/>
+                                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="13"/>
+                                                        <color key="textColor" red="0.96321818709999996" green="0.1175315621" blue="0.1200124405" alpha="0.76576254399999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CyK-Rh-JRi">
+                                        <rect key="frame" x="120" y="0.0" width="250" height="171.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Fn4-SP-9sg">
+                                                <rect key="frame" x="0.0" y="0.0" width="250" height="40.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="asdfgh" lineBreakMode="clip" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PJg-7Q-mmC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="250" height="19"/>
+                                                        <gestureRecognizers/>
+                                                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="gfgthyfgyf" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2L6-Qa-niN">
+                                                        <rect key="frame" x="0.0" y="24" width="250" height="16.5"/>
+                                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="12"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="gxdfgdx" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5M-BE-dhr">
+                                                <rect key="frame" x="0.0" y="50.5" width="250" height="19.5"/>
+                                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Es3-cJ-Y0r">
+                                                <rect key="frame" x="0.0" y="80" width="250" height="25"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thz-nS-rrs">
+                                                        <rect key="frame" x="0.0" y="0.0" width="17" height="25"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="17" id="ufd-lv-GcZ"/>
+                                                        </constraints>
+                                                        <state key="normal" image="decrease_icon"/>
+                                                        <connections>
+                                                            <action selector="tapOnDecrease:" destination="5jr-DN-euU" eventType="touchUpInside" id="Lxe-le-Yri"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6p-Xd-mNY">
+                                                        <rect key="frame" x="27" y="0.0" width="35" height="25"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="35" id="mWL-Cd-pP8"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNi-1q-3nq">
+                                                        <rect key="frame" x="72" y="0.0" width="17" height="25"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="17" id="LhU-mn-RfL"/>
+                                                        </constraints>
+                                                        <state key="normal" image="increase_icon"/>
+                                                        <connections>
+                                                            <action selector="tapOnIncrease:" destination="5jr-DN-euU" eventType="touchUpInside" id="Lxd-Ri-zPF"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="prb-r1-ngK">
+                                                        <rect key="frame" x="99" y="0.0" width="151" height="25"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                        <color key="textColor" red="0.0" green="0.60392156860000001" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="25" id="gSR-TL-odm"/>
+                                                </constraints>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="97897" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RaF-6M-k5e">
+                                                <rect key="frame" x="0.0" y="115" width="250" height="19.5"/>
+                                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="cN5-lf-U1p">
+                                                <rect key="frame" x="0.0" y="144.5" width="250" height="27"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="50" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJl-3R-IAl">
+                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="27"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="50" id="Pnl-7W-yTL"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <action selector="tapOnCartOrWishlistButton:" destination="5jr-DN-euU" eventType="touchUpInside" id="bCH-4o-2Ru"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F60-F6-f3G" userLabel="Remove Button">
+                                                        <rect key="frame" x="65" y="0.0" width="50" height="27"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="50" id="YqM-zt-FXi"/>
+                                                        </constraints>
+                                                        <state key="normal" image="cart_remove_icon"/>
+                                                        <connections>
+                                                            <action selector="tapOnRemoveButton:" destination="5jr-DN-euU" eventType="touchUpInside" id="zkC-Uk-P42"/>
+                                                        </connections>
+                                                    </button>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="igX-Bp-NCT">
+                                                        <rect key="frame" x="130" y="0.0" width="120" height="27"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </view>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="27" id="xuS-F0-0ma"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <view hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7lB-F6-Thi">
+                        <rect key="frame" x="16" y="15" width="110" height="159"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="V44-Is-nwc" firstAttribute="top" secondItem="04v-1I-BuD" secondAttribute="top" constant="15" id="8Gf-IW-pGE"/>
+                    <constraint firstAttribute="bottom" secondItem="V44-Is-nwc" secondAttribute="bottom" constant="15" id="Lgl-d3-2QZ"/>
+                    <constraint firstItem="V44-Is-nwc" firstAttribute="leading" secondItem="04v-1I-BuD" secondAttribute="leading" constant="16" id="NGH-GS-8MV"/>
+                    <constraint firstAttribute="trailing" secondItem="V44-Is-nwc" secondAttribute="trailing" constant="20" id="OOH-Ut-rdw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="byb-nN-6ws"/>
+            <connections>
+                <outlet property="availableProductLabel" destination="prb-r1-ngK" id="pNi-7l-J9v"/>
+                <outlet property="cartOrWishlistButton" destination="JJl-3R-IAl" id="86V-Mt-7lv"/>
+                <outlet property="changeQuantityStack" destination="Es3-cJ-Y0r" id="fFz-sM-Bwk"/>
+                <outlet property="colorAndSizeLabel" destination="e5M-BE-dhr" id="Ocr-I1-lGD"/>
+                <outlet property="outOfStockStackView" destination="Z38-ZG-GX5" id="tti-6N-uem"/>
+                <outlet property="outOfStockTransparentView" destination="7lB-F6-Thi" id="tFp-8c-0dx"/>
+                <outlet property="priceLabel" destination="RaF-6M-k5e" id="1Nc-W0-7QN"/>
+                <outlet property="productImageView" destination="hiB-Xj-CIY" id="Olb-wJ-dTq"/>
+                <outlet property="productName" destination="PJg-7Q-mmC" id="2px-iH-80I"/>
+                <outlet property="propertiesStackView" destination="CyK-Rh-JRi" id="VTl-AS-iNo"/>
+                <outlet property="quantityDecreaseButton" destination="Thz-nS-rrs" id="8mk-n9-5qq"/>
+                <outlet property="quantityIncreaseButton" destination="rNi-1q-3nq" id="UYU-KE-pUX"/>
+                <outlet property="quantityLabel" destination="B6p-Xd-mNY" id="VeP-Hs-Yyv"/>
+                <outlet property="skuLabel" destination="2L6-Qa-niN" id="Vtq-ve-Nii"/>
+            </connections>
+            <point key="canvasLocation" x="694" y="395.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cart_remove_icon" width="36" height="36"/>
+        <image name="decrease_icon" width="25.600000381469727" height="25.600000381469727"/>
+        <image name="increase_icon" width="25.600000381469727" height="25.600000381469727"/>
+    </resources>
+</document>

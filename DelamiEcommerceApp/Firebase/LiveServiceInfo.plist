@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>685362101181-m5qf3hemmstr62dtphll1f3a17k2aehh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.685362101181-m5qf3hemmstr62dtphll1f3a17k2aehh</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>685362101181-22jh2k67nr0kli28qqcktnqdnqou224h.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAJ0Zc6MMHf1ma-DEOj6UVeAZmJUdDJygs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>685362101181</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.delamibrands.theexecutive</string>
+	<key>PROJECT_ID</key>
+	<string>the-executive-a18c5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>the-executive-a18c5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:685362101181:ios:a6645f767d568965</string>
+	<key>DATABASE_URL</key>
+	<string>https://the-executive-a18c5.firebaseio.com</string>
+</dict>
+</plist>

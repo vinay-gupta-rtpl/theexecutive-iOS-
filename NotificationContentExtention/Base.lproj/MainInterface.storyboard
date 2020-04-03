@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ubi-GR-wWu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="aeW-QP-kSE">
+            <objects>
+                <viewController id="Ubi-GR-wWu" userLabel="Notification View Controller" customClass="NotificationViewController" customModule="NotificationContentExtention" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="FDB-Th-4jj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ppb-Ij-9To">
+                                <rect key="frame" x="11.5" y="12" width="297" height="351"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rOd-ea-Uh4">
+                                        <rect key="frame" x="0.0" y="0.0" width="297" height="148.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="rOd-ea-Uh4" secondAttribute="height" multiplier="2:1" id="eOW-tt-mBP"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xic-Nv-qgs">
+                                        <rect key="frame" x="0.0" y="153.5" width="297" height="192.5"/>
+                                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsf-lt-nqi">
+                                        <rect key="frame" x="0.0" y="351" width="297" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ppb-Ij-9To" firstAttribute="top" secondItem="cRn-Mk-Gmv" secondAttribute="top" constant="12" id="LaD-1u-jow"/>
+                            <constraint firstItem="Ppb-Ij-9To" firstAttribute="leading" secondItem="cRn-Mk-Gmv" secondAttribute="leading" constant="12" id="Lck-af-tLi"/>
+                            <constraint firstItem="cRn-Mk-Gmv" firstAttribute="trailing" secondItem="Ppb-Ij-9To" secondAttribute="trailing" constant="12" id="tns-8s-hCZ"/>
+                            <constraint firstItem="cRn-Mk-Gmv" firstAttribute="bottom" secondItem="Ppb-Ij-9To" secondAttribute="bottom" constant="12" id="vZ7-sV-5KN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cRn-Mk-Gmv"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="375"/>
+                    <connections>
+                        <outlet property="bodyLabel" destination="vsf-lt-nqi" id="1LK-Gc-XNh"/>
+                        <outlet property="imageView" destination="rOd-ea-Uh4" id="teC-ji-BUW"/>
+                        <outlet property="notificationView" destination="FDB-Th-4jj" id="Nea-7X-gtY"/>
+                        <outlet property="titleLabel" destination="Xic-Nv-qgs" id="lwX-4B-Vuo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UBz-VM-gSh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1515" y="99"/>
+        </scene>
+    </scenes>
+</document>

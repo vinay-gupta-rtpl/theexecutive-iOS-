@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.ranosys.DelamiEcommerceApp</key>
+		<string>DelamiEcommerceDist</string>
+	</dict>
+	<key>teamID</key>
+	<string>M8A7BYS443</string>
+	<key>method</key>
+	<string>enterprise</string>
+	<key>uploadSymbols</key>
+	<false/>
+	<key>uploadBitcode</key>
+	<false/>
+</dict>
+</plist>

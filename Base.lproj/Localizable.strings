@@ -1,0 +1,335 @@
+/*
+ Localizable.strings
+ DelamiEcommerceApp
+ 
+ Created by Rishi Gupta on 5/10/18.
+ Copyright © 2018 Nish-Ranosys. All rights reserved.
+ */
+
+"Email Address is required." = "Email Address is required.";
+"Password is required." = "Password is required.";
+"First Name is required." = "First Name is required.";
+"Last Name is required." = "Last Name is required.";
+"The Executive" = "The Executive";
+"Street Address Line 1 is required." = "Street Address Line 1 is required.";
+"EDIT ADDRESS" = "EDIT ADDRESS";
+"Mobile Number is required." = "Mobile Number is required.";
+"No cities available." = "No cities available.";
+"Country is required." = "Country is required.";
+"State is required." = "State is required.";
+"City is required." = "City is required.";
+"No cities for this state." = "No cities for this state.";
+"Zip/ Postal Code is required." = "Zip/ Postal Code is required.";
+"Confirm Password is required." = "Confirm Password is required.";
+"Birth Date is required." = "Birth Date is required.";
+"The password does not match, kindly enter the same password as above." = "The password does not match, kindly enter the same password as above.";
+"Oops.. we couldn't find what you need." = "Oops.. we couldn't find what you need.";
+"Current Password is required." = "Current Password is required.";
+"New Password is required." = "New Password is required.";
+"Confirm New Password is required." = "Confirm New Password is required.";
+"Email address is required in valid format." = "Email address is required in valid format.";
+"Password must contain 8 or more characters, at least 1 alphabet and 1 number." = "Password must contain 8 or more characters, at least 1 alphabet and 1 number.";
+"Length should be between 8 to 16." = "Length should be between 8 to 16.";
+"The email address or password do not match with our system, Kindly enter the valid credentials." = "The email address or password do not match with our system, Kindly enter the valid credentials.";
+"Oops.. we couldn't connect to your wishlist, Kindly login/Register to the app." = "Oops.. we couldn't connect to your wishlist, Kindly login/Register to the app.";
+"No country available right now." = "No country available right now.";
+"Order number is required." = "Order number is required.";
+"Bank number is required." = "Bank number is required.";
+"Holder account number is required." = "Holder account number is required.";
+"Transfer amount is required." = "Transfer amount is required.";
+"Bank recipient is required." = "Bank recipient is required.";
+"Transfer method is required." = "Transfer method is required.";
+"Transfer date is required." = "Transfer date is required.";
+"Attachment File is required." = "Attachment File is required.";
+"Welcome aboard, you are now a member of The Executive. Kindly verify your email." = "Welcome aboard, you are now a member of The Executive. Kindly verify your email.";
+"Welcome aboard, you are now a member of The Executive." = "Welcome aboard, you are now a member of The Executive.";
+"We have sent you an email, please follow the instruction to reset password." = "We have sent you an email, please follow the instruction to reset password.";
+"Product added to bag" = "Product added to bag";
+"added to wishlist." = "added to wishlist.";
+"Sorry, some error occured. Please try again." = "Sorry, some error occured. Please try again.";
+"your address has been changed successfully." = "your address has been changed successfully.";
+"You can not delete default address. For deleting this make another address delete." = "You can not delete default address. For deleting this make another address delete.";
+"Your password successfully changed." = "Your password successfully changed.";
+"Product added to bag." = "Product added to bag.";
+"It seems like you are already registered with us, Kindly login." = "It seems like you are already registered with us, Kindly login.";
+
+// STRING.swift
+"SELECT LANGUAGE" = "SELECT LANGUAGE";
+"FORGOT PASSWORD" = "FORGOT PASSWORD";
+"CREATE AN ACCOUNT" = "CREATE AN ACCOUNT";
+"MY INFORMATION" = "MY INFORMATION";
+"ADDRESS BOOK" = "ADDRESS BOOK";
+"ADD ADDRESS" = "ADD ADDRESS";
+"SHOPPING BAG" = "SHOPPING BAG";
+//"Composition and Care" = "Composition and Care";
+"Care Instruction" = "Care Instruction";
+"Size Guideline" = "Size Guideline";
+"Shipping" = "Shipping";
+"Returns" = "Returns";
+"Buying Guideline" = "Buying Guideline";
+"BANK TRANSFER CONFIRMATION" = "BANK TRANSFER CONFIRMATION";
+"PROMOTION" = "PROMOTION";
+"TERMS AND CONDITION" = "TERMS AND CONDITION";
+"MY ACCOUNT" = "MY ACCOUNT";
+"WISHLIST" = "WISHLIST";
+"CHECKOUT" = "CHECKOUT";
+"NOTIFICATIONS" = "NOTIFICATIONS";
+"Login" = "Login";
+"Forgot Password?" = "Forgot Password?";
+"NEWSLETTER" = "NEWSLETTER";
+"CHANGE PASSWORD" = "CHANGE PASSWORD";
+"Chat" = "Chat";
+
+// LOGIN VIEW CONTROLLER
+"Failed to create google account. and the error is: " = "Failed to create google account. and the error is: ";
+
+//MY Account Storyboard
+
+//Login Controller
+"Existing Customer" = "Existing Customer";
+"Email Address" = "Email Address";
+"Password" = "Password";
+"LOG IN" = "LOG IN";
+"Login with" = "Login with";
+"New Customer" = "New Customer";
+
+//ForgotPassword Controller
+"Please enter your Email address below." = "Please enter your Email address below.";
+"* You will receive an email to reset your password." = "* You will receive an email to reset your password.";
+"SUBMIT" = "SUBMIT";
+
+//Register Controller
+"First Name" = "First Name";
+"Last name" = "Last name";
+"Select Gender" = "Select Gender";
+"Male" = "Male";
+"Female" = "Female";
+"Mobile Number" = "Mobile Number";
+"DD/MM/YYYY" = "DD/MM/YYYY";
+"Country" = "Country";
+"City" = "City";
+"Zip/ Postal Code" = "Zip/ Postal Code";
+"Confirm Password" = "Confirm Password";
+"By creating your account, you agree to our Terms and Conditions and Privacy Policy." = "By creating your account, you agree to our Terms and Conditions and Privacy Policy.";
+
+//My Information VC
+"Street Address Line 1" = "Street Address Line 1";
+"Street Address Line 2" = "Street Address Line 2";
+"Country" = "Country";
+"State/ Province" = "State/ Province";
+
+// newsletter
+"Subscribe to our newsletter to stay updated on the latest promotions, new arrivals and online exclusives." = "Subscribe to our newsletter to stay updated on the latest promotions, new arrivals and online exclusives.";
+"SUBSCRIBE" = "SUBSCRIBE";
+
+// Change Password
+"Current Password" = "Current Password";
+"New Password" = "New Password";
+"Confirm New Password" = "Confirm New Password";
+
+// My Account VC
+"My Information" = "My Information";
+"My Orders" = "My Orders";
+"Shipping Address" = "Shipping Address";
+"Notification" = "Notification";
+"Subscribe to Newsletter" = "Subscribe to Newsletter";
+"Select Language" = "Select Language";
+"Change Password" = "Change Password";
+"Buying Guide" = "Buying Guide";
+"Contact Us" = "Contact Us";
+"Setting" = "Setting";
+"LOGOUT" = "LOGOUT";
+"Notifications" = "Notifications";
+"Bank Transfer Confirmation" = "Bank Transfer Confirmation";
+"item(s)" = "item(s)";
+
+// AddAddress VC
+"Code" = "Code";
+"SAVE" = "SAVE";
+
+// order status message
+"Order Placed Successfully" = "Order Placed Successfully";
+"Thanks for your order." = "Thanks for your order.";
+"Order Cancelled." = "Order Cancelled.";
+"Your order has been cancelled." = "Your order has been cancelled.";
+"Order Failed" = "Order Failed";
+"Your order has been failed." = "Your order has been failed.";
+"You will receive an order confirmation email with detail of your order." = "You will receive an order confirmation email with detail of your order.";
+"Your Virtual Account Number is" = "Your Virtual Account Number is";
+"Bank Account" = "Bank Account";
+
+// Order button Titles
+"View Order" = "View Order";
+"Continue Shopping" = "Continue Shopping";
+
+// Constant strings
+"Qty" = "Qty";
+"Shipping Method" = "Shipping Method";
+"Payment Method" = "Payment Method";
+"Totals" = "Totals";
+"Total" = "Total";
+"Order #" = "Order #";
+"VIEW ALL" = "VIEW ALL";
+"By creating an account, you agree to the applicable Terms & Conditions." = "By creating an account, you agree to the applicable Terms & Conditions.";
+"Terms & Conditions" = "Terms & Conditions";
+"Privacy Policy" = "Privacy Policy";
+"SKU" = "SKU";
+"Today" = "Today";
+"Product" = "Product";
+"Out of Stock" = "Out of Stock";
+"Only" = "Only";
+"product(s) available." = "product(s) available.";
+"Total 3 item(s) in your cart" = "Total 3 item(s) in your cart";
+"item(s) in your wishlist" = "item(s) in your wishlist";
+"Size Guide" = "Size Guide";
+"Select Size" = "Select Size";
+"Select Quantity" = "Select Quantity";
+"SORT BY" = "SORT BY";
+
+// Button Titles
+"Done" = "Done";
+"EDIT" = "EDIT";
+"SAVE" = "SAVE";
+"Clear" = "Clear";
+"ADD TO BAG" = "ADD TO BAG";
+"Add to Wishlist" = "Add to Wishlist";
+"Error" = "Error";
+"Alert" = "Alert";
+"Success" = "Success";
+"OK" = "OK";
+"Cancel" = "Cancel";
+
+// Alert Validation
+"Something went wrong. Please try again." = "Something went wrong. Please try again.";
+"Maximum 50 characters allowed in first name." = "Maximum 50 characters allowed in first name.";
+"Maximum 50 characters allowed in last name." = "Maximum 50 characters allowed in last name.";
+"Please login before adding items to your wishlist." = "Please login before adding items to your wishlist.";
+"Please login before checkout." = "Please login before checkout.";
+"Notification listing is empty." = "Notification listing is empty.";
+"5 characters are allowed in Zip/ Postal Code." = "5 characters are allowed in Zip/ Postal Code.";
+"No results found for the search" = "No results found for the search";
+"No Reason selected" = "No Reason selected";
+"No Item selected" = "No Item selected";
+"Your wishlist is empty" = "Your wishlist is empty";
+"Your Cart is empty!" = "Your Cart is empty!";
+"There was some error while getting order's detail." = "There was some error while getting order's detail.";
+"Total 3 item(s) in your wishlist" = "Total 3 item(s) in your wishlist";
+
+// ALert Messages
+"No Internet Connection" = "No Internet Connection";
+"Are you sure you want to logout from application?"="Are you sure you want to logout from application?";
+"Return request succesfully submitted." = "Return request succesfully submitted.";
+"You can not delete default address. For deleting this make another address default." = "You can not delete default address. For deleting this make another address default.";
+"Are you sure you want to remove item from your wishlist?" = "Are you sure you want to remove item from your wishlist?";
+"Are you sure you want to remove item from your shopping bag?" = "Are you sure you want to remove item from your shopping bag?";
+"Your information has been updated successfully." = "Your information has been updated successfully.";
+"Address has been added successfully." = "Address has been added successfully.";
+"Do you want to cancel your order?" = "Do you want to cancel your order?";
+"Are you sure you want to remove this address?" = "Are you sure you want to remove this address?";
+"Upload Recipient Photo" = "Upload Recipient Photo";
+"moved to wishlist successfully." = "moved to wishlist successfully.";
+"Please change the product qty or move it to your wishlist." = "Please change the product qty or move it to your wishlist.";
+"No more quantity available for this product." = "No more quantity available for this product.";
+"Please select a payment method for your order." = "Please select a payment method for your order.";
+"Please select at least one option." = "Please select at least one option.";
+"Enter correct amount" = "Enter correct amount";
+"No more product available" = "No more product available";
+"No user exists with this email id." = "No user exists with this email id.";
+
+// Constant Strings
+"Indonesia" = "Indonesia";
+"IDR" = "IDR";
+"dd-MM-YYYY" = "dd-MM-YYYY";
+"dd/MM/YYYY" = "dd/MM/YYYY";
+"BCA – 494 3013 775" = "BCA – 494 3013 775";
+//"Bad Quality" = "Bad Quality";
+//"Not Accordance" = "Not Accordance";
+//"Other" = "Other";
+
+// return reasons
+"Product does not fit" = "Product does not fit";
+"Incorrect product received" = "Incorrect product received";
+"Product does not match description on website" = "Product does not match description on website";
+"Product does not meet customer's expectations" = "Product does not meet customer's expectations";
+"Quality issue" = "Quality issue";
+
+// Main Storyboard
+"HOME" = "HOME";
+"CONTINUE" = "CONTINUE";
+"Search" = "Search";
+
+// MyAccount Storyboard
+"Share" = "Share";
+"Color" = "Color";
+"You Might Also Like" = "You Might Also Like";
+
+// Shop Storyboard
+"S O R T  B Y" = "S O R T  B Y";
+"F I L T E R  B Y" = "F I L T E R  B Y";
+"Price Range" = "Price Range";
+"A P P L Y" = "A P P L Y";
+"FILTER" = "FILTER";
+"Done" = "Done";
+
+// MyCart Storyboard
+"APPLY" = "APPLY";
+"Promo Code" = "Promo Code";
+"Enter your Promo Code" = "Enter your Promo Code";
+"The promo code you entered is not valid." = "The promo code you entered is not valid.";
+"Product Total" = "Product Total";
+"Discount" = "Discount";
+"Grand Total" = "Grand Total";
+
+// Order Storyboard
+"Return From" = "Return From";
+"Return To" = "Return To";
+"Return" = "Return";
+"Select Reason" = "Select Reason";
+"Payment ID" = "Payment ID";
+"Delivered" = "Delivered";
+"Return Qty" = "Return Qty";
+"Products" = "Products";
+"You have not placed an order." = "You have not placed an order.";
+"Shipping Cost" = "Shipping Cost";
+"R E T U R N" = "R E T U R N";
+"Return Mode" = "Return Mode";
+"Return via courier (ex: JNE, RPX, SAP, etc.)" = "Return via courier (ex: JNE, RPX, SAP, etc.)";
+"Return via Alfamart (Free)" = "Return via Alfamart (Free)";
+
+// Checkout Storyboard
+"CONFIRM ORDER & PAY NOW" = "CONFIRM ORDER & PAY NOW";
+"VIEW ORDER" = "VIEW ORDER";
+"Items" = "Items";
+
+// MyAccountInfo Storyboard
+"Mobile Number" = "Mobile Number";
+"First Name" = "First Name";
+"State" = "State";
+"Zip/Postal Code" = "Zip/Postal Code";
+"date" = "date";
+"Transfer date" = "Transfer date";
+"Last Name" = "Last Name";
+"description" = "description";
+"Bank Recipient" = "Bank Recipient";
+"Order #" = "Order #";
+"Email Address" = "Email Address";
+"Transaction Information" = "Transaction Information";
+"Go to Notification Setting" = "Go to Notification Setting";
+"Street Adress Line 1" = "Street Adress Line 1";
+"Transfer Method" = "Transfer Method";
+"Settings" = "Settings";
+"Set as Default" = "Set as Default";
+"Remove" = "Remove";
+"Bank Account Information" = "Bank Account Information";
+"Bank Name" = "Bank Name";
+"Edit" = "Edit";
+"My Account" = "My Account";
+"Holder Account Number" = "Holder Account Number";
+"To change the notification setting, Go to the notification panel." = "To change the notification setting, Go to the notification panel.";
+"Transfer Amount" = "Transfer Amount";
+"Attachment" = "Attachment";
+"title" = "title";
+"EXIT" = "EXIT";
+"No address available. Please add address to checkout." = "No address available. Please add address to checkout.";
+"A new version of the The Executive App is available. Please update to access the latest features." = "A new version of the The Executive App is available. Please update to access the latest features.";
+"New Version" = "New Version";

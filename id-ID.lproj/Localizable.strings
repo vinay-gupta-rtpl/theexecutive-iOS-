@@ -1,0 +1,332 @@
+/* 
+ Localizable.strings
+ DelamiEcommerceApp
+ 
+ Created by Rishi Gupta on 5/10/18.
+ Copyright © 2018 Nish-Ranosys. All rights reserved.
+ */
+
+"Email Address is required." = "Masukan alamat email";
+"Password is required." = "Masukan kata sandi.";
+"First Name is required." = "Masukan nama depan.";
+"Last Name is required." = "Masukan nama belakang.";
+"The Executive" = "The Executive";
+"Street Address Line 1 is required." = "masukan alamat 1.";
+"EDIT ADDRESS" = "UBAH ALAMAT";
+"Mobile Number is required." = "Masukan nomor telepon.";
+"No cities available." = "Kota tidak tersedia.";
+"Country is required." = "Masukan Negara.";
+"State is required." = "Masukan Provinsi.";
+"City is required." = "Masukan Kota.";
+"No cities for this state." = "Kota tidak tersedia.";
+"Zip/ Postal Code is required." = "Masukan Kode Pos.";
+"Confirm Password is required." = "Masukan kembali Kata Sandi baru.";
+"Birth Date is required." = "Masukan tanggal lahir.";
+"The password does not match, kindly enter the same password as above." = "Kata sandi yang anda masukan tidak sesuai, mohon masukan kata sandi yang sama.";
+"Oops.. we couldn't find what you need." = "Produk tidak dapat ditemukan."; // \"…\"
+"Current Password is required." = "Masukan Kata Sandi Lama.";
+"New Password is required." = "Masukan Kata Sandi Baru.";
+"Confirm New Password is required." = "Masukan kembali Kata Sandi baru.";
+"Email address is required in valid format." = "Alamat email tidak valid.";
+"Password must contain 8 or more characters, at least 1 alphabet and 1 number." = "Kata sandi harus memuat 8 karakter atau lebih, karakter khusus dan angka.";
+"Length should be between 8 to 16." = "Panjang karakter harus 8 hingga 16.";
+"The email address or password do not match with our system, Kindly enter the valid credentials." = "Email atau Kata Sandi tidak sesuai, mohon masukan Email atau Kata Sandi yang sesuai.";
+"Oops.. we couldn't connect to your wishlist, Kindly login/Register to the app." = "Maaf, untuk menambahkan wishlist, mohon Login/Register terlebih dahulu.";
+"No country available right now." = "Tidak ada negara yang tersedia saat ini.";
+"Order number is required." = "Masukan No. Order.";
+"Bank number is required." = "Masukan no. rekening bank.";
+"Holder account number is required." = "Masukan No. Rekening.";
+"Transfer amount is required." = "Masukan Jumlah Uang Yang Di Transfer.";
+"Bank recipient is required." = "Masukan Bukti Pembayaran.";
+"Transfer method is required." = "Masukan metode transfer.";
+"Transfer date is required." = "Masukan Tanggal Transfer.";
+"Attachment File is required." = "Masukan Lampiran.";
+"Welcome aboard, you are now a member of The Executive. Kindly verify your email." = "Selamat datang, Anda sekarang menjadi anggota The Executive. Mohon verifikasi email Anda.";
+"Welcome aboard, you are now a member of The Executive." = "Selamat, anda telah terdaftar sebagai member The Executive.";
+"We have sent you an email, please follow the instruction to reset password." = "Kami telah mengirimkan email, mohon ikuti instruksi untuk mengubah kata sandi.";
+"Product added to bag" = "Produk telah ditambahkan ke Tas Belanja";
+"added to wishlist." = "telah ditambahkan ke Wishlist.";
+"Sorry, some error occured. Please try again." = "Terjadi kesalahan. Mohon coba lagi.";
+"your address has been changed successfully." = "Alamat anda telah berhasil diperbarui.";
+"You can not delete default address. For deleting this make another address delete." = "Anda tidak bisa menghapus alamat utama, silakan membuat alamat utama yang baru terlebih dahulu.";
+"Your password successfully changed." = "Anda sukses mengubah kata sandi.";
+"Product added to bag." = "Produk telah ditambahkan ke Tas Belanja.";
+"It seems like you are already registered with us, Kindly login." = "Email anda sudah terdaftar, Login untuk masuk.";
+
+//  STRING.swift
+"SELECT LANGUAGE" = "PILIH BAHASA";
+"FORGOT PASSWORD" = "LUPA KATA SANDI";
+"CREATE AN ACCOUNT" = "BUAT AKUN";
+"MY INFORMATION" = "INFORMASI";
+"ADDRESS BOOK" = "BUKU ALAMAT";
+"ADD ADDRESS" = "TAMBAH ALAMAT";
+"SHOPPING BAG" = "TAS BELANJA";
+//"Composition and Care" = "Komposisi dan Cara Perawatan";
+"Care Instruction" = "Cara Perawatan";
+"Size Guideline" = "Panduan ukuran";
+"Shipping" = "Info pengiriman";
+"Returns" = "Info pengembalian barang";
+"Buying Guideline" = "Info pemesanan";
+"BANK TRANSFER CONFIRMATION" = "KONFIRMASI BANK TRANSFER";
+"PROMOTION" = "PROMOSI";
+"TERMS AND CONDITION" = "SYARAT DAN KETENTUAN";
+"MY ACCOUNT" = "AKUN";
+"WISHLIST" = "WISHLIST";
+"CHECKOUT" = "CHECKOUT";
+"NOTIFICATIONS" = "NOTIFIKASI";
+"Login" = "Masuk";
+"Forgot Password?" = "Lupa kata sandi?";
+"Create an Account" = "Buat Akun";
+"NEWSLETTER" = "NEWSLETTER";
+"CHANGE PASSWORD" = "UBAH KATA SANDI";
+"Chat" = "Hubungi Kami";
+
+//MY Account Storyboard
+//Login Controller
+"Existing Customer" = "Pelanggan Terdaftar"; 
+"Email address" = "Alamat email";
+"Password" = "Kata Sandi";
+"LOG IN" = "M A S U K";
+"Login with" = "Login dengan";
+"New Customer" = "Pelanggan baru";
+
+//ForgotPassword Controller
+"Please enter your Email address below." = "Masukan alamat email.";
+"* You will receive an email to reset your password." = "* Anda akan mendapatkan email untuk mengubah kata sandi";
+"SUBMIT" = "LANJUTKAN";
+
+//Register Controller
+"First name" = "Nama depan";
+"Last name" = "Nama belakang";
+"Select Gender" = "Pilih jenis kelamin";
+"Male" = "Laki-laki";
+"Female" = "Perempuan";
+"DD/MM/YYYY" = "DD/MM/YYYY";
+"Street Address Line 2" = "Alamat 2";
+"Country" = "Negara";
+"State/ Province" = "Provinsi";
+"City" = "Kota";
+"Zip/ Postal Code" = "Kode Pos";
+"Password" = "Kata Sandi";
+"Confirm Password" = "Masukan kembali kata sandi";
+
+//My Information VC
+"Code" = "Code";
+"Mobile number" = "Nomor Telepon";
+"Street Address Line 1" = "Alamat 1";
+
+// newsletter
+"Subscribe to our newsletter to stay updated on the latest promotions, new arrivals and online exclusives." = "Subscribe untuk mendapatkan Newsletter serta promo khusus online.";
+"SUBSCRIBE" = "SUBSCRIBE";
+
+// Change PAss
+"Current Password" = "Kata Sandi";
+"New Password" = "Kata Sandi Baru";
+"Confirm New Password" = "Konfirmasi Kata Sandi";
+
+//My Account VC
+"My Information" = "Informasi";
+"My Orders" = "My Orders";
+"Shipping Address" = "Alamat pengiriman";
+"Notification" = "Notifikasi";
+"Subscribe to Newsletter" = "Subscribe untuk mendapatkan Newsletter";
+"Select Language" = "Pilih bahasa";
+"Change Password" = "Ubah Kata Sandi";
+"Buying Guide" = "Info pemesanan";
+"Contact Us" = "Hubungi kami";
+"Setting" = "Pengaturan";
+"LOGOUT" = "KELUAR";
+"Notifications" = "Notifikasi";
+"Bank Transfer Confirmation" = "Konfirmasi Bank Transfer";
+
+// order status message
+"Order Placed Successfully" = "Pesanan anda telah berhasil";
+"Thanks for your order." = "Terima kasih untuk order Anda.";
+"Order Cancelled." = "Order telah dibatalkan.";
+"Your order has been cancelled." = "Order telah dibatalkan.";
+"Order Failed" = "Order gagal";
+"Your order has been failed." = "Order gagal.";
+"You will receive an order confirmation email with detail of your order." = "Anda akan menerima email konfirmasi pesanan dengan detail pesanan Anda.";
+"Your Virtual Account Number is" = "No. Virtual Account anda adalah";
+"Bank Account" = "Akun bank";
+"item(s)" = "barang";
+
+// Order button Titles
+"View Order" = "Lihat Pesanan";
+"Continue Shopping" = "Lanjut Belanja";
+
+// Constant strings
+"Qty" = "Qty";
+"Shipping Method" = "Metode Pengiriman";
+"Payment Method" = "Metode Pembayaran";
+"Totals" = "Totals";
+"Total" = "Total";
+"Order #" = "Order #";
+"VIEW ALL" = "LIHAT SEMUA";
+"By creating an account, you agree to the applicable Terms & Conditions." = "Dengan membuat akun, anda menyetujui syarat dan ketentuan yang berlaku.";
+"Terms & Conditions" = "syarat dan ketentuan";
+"Privacy Policy" = "Kebijakan Privasi";
+"SKU" = "SKU";
+"Today" = "Hari ini";
+"Product" = "Produk";
+"Out of Stock" = "Tidak tersedia";
+"Only" = "Hanya";
+"product(s) available." = "produk tersedia.";
+"Total 3 item(s) in your cart" = "Total barang dalam Tas Belanja : 3";
+"Size Guide" = "Panduan ukuran";
+"Select Size" = "Pilih ukuran";
+"Select Quantity" = "Pilih jumlah";
+"SORT BY" = "Atur Berdasarkan";
+
+// Button Titles
+"Done" = "Selesai";
+"EDIT" = "UBAH";
+"SAVE" = "SIMPAN";
+"Clear" = "Hapus";
+//"ADD TO BAG" = "Tambahkan ke Tas Belanja";
+"ADD TO BAG" = "Pesan";
+"Add to Wishlist" = "Tambahkan ke Wishlist";
+"Error" = "Error";
+"Alert" = "Perhatian";
+"Success" = "Berhasil";
+"OK" = "Ya";
+"Cancel" = "Batal";
+
+// Alert Validation
+"Something went wrong. Please try again." = "Mohon coba kembali.";
+"Maximum 50 characters allowed in first name." = "Maksimal 50 karakter di Nama Depan.";
+"Maximum 50 characters allowed in last name." = "Maksimal 50 karakter di Nama Belakang.";
+"Please login before adding items to your wishlist." = "Untuk menambahkan wishlist, mohon Login/Register terlebih dahulu.";
+"Please login before checkout." = "Mohon Login sebelum checkout.";
+"Notification listing is empty." = "Tidak ada notifikasi.";
+"5 characters are allowed in Zip/ Postal Code." = "Masukan 5 karakter di Kode Pos.";
+"No results found for the search" = "Produk tidak dapat ditemukan";
+"No Reason selected" = "Alasan belum dipilih";
+"No Item selected" = "Tidak ada produk yang dipilih";
+"There was some error while getting order's detail." = "Terjadi eror saat proses.";
+"Total 3 item(s) in your wishlist" = "3 Produk telah tersimpan di Wishlist";
+
+// Alert Messages
+"No Internet Connection" = "Jaringan internet tidak ditemukan";
+"Do you want to logout?" = "Apakah anda ingin keluar?";
+"Are you sure you want to logout from application?" = "Apakah anda yakin akan keluar dari aplikasi?";
+"Return request succesfully submitted." = "Permintaan pengembalian produk Anda telah kami terima.";
+"You can not delete default address. For deleting this make another address default." = "Anda tidak bisa menghapus alamat utama, silakan membuat alamat utama yang baru terlebih dahulu.";
+"Are you sure you want to remove item from your wishlist?" = "Apakah anda yakin untuk menghapus produk pada Wishlist?";
+"Are you sure you want to remove item from your shopping bag?" = "Apakah anda yakin untuk menghapus produk pada Tas Belanja?";
+"Your information has been updated successfully." = "Informasi Anda telah berhasil diperbaharui.";
+"Address has been added successfully." = "Alamat berhasil diperbaharui.";
+"Do you want to cancel your order?" = "Apakah anda mau membatalkan pesanan?";
+"Are you sure you want to remove this address?" = "Apakah anda yakin untuk menghapus alamat ini?";
+
+"Upload Recipient Photo" = "Unggah Foto";
+"moved to wishlist successfully." = "Berhasil memindahkan produk ke wishlist.";
+"Please change the product qty or move it to your wishlist." = "Ubah jumlah produk atau pindahkan ke wishlist Anda.";
+"No more quantity available for this product." = "Jumlah barang tidak tersedia.";
+"Please select a payment method for your order." = "Mohon pilih metode pembayaran.";
+"Please select at least one option." = "Pilih opsi."; // check
+"Enter correct amount" = "Tulis jumlah yang sesuai";
+"No more product available" = "Produk tidak tersedia";
+"Select Size" = "Pilih ukuran";
+"No user exists with this email id." = "Alamat email tidak terdaftar.";
+
+// Constant Strings
+"Indonesia" = "Indonesia";
+"IDR" = "Rp";
+"dd-MM-YYYY" = "dd-MM-YYYY";
+"dd/MM/YYYY" = "dd/MM/YYYY";
+"BCA – 494 3013 775" = "BCA – 494 3013 775";
+
+//"Bad Quality" = "Kualitas Buruk";
+//"Not Accordance" = "Tidak Sesuai";
+//"Other" = "Lain";
+
+// return reasons
+"Product does not fit" = "Ukuran tidak sesuai";
+"Incorrect product received" = "Produk yang diterima tidak sesuai";
+"Product does not match description on website" = "Produk tidak sesuai dengan website";
+"Product does not meet customer's expectations" = "Produk tidak sesuai ekspektasi";
+"Quality issue" = "Kualitas produk tidak baik";
+
+// MyAccountInfo Storyboard
+"Mobile Number" = "Nomor Telepon";
+"First Name" = "Nama Depan";
+"Email Address" = "Alamat email";
+"State" = "Provinsi";
+"date" = "Tanggal";
+"Transfer date" = "Tanggal transfer";
+"Last Name" = "Nama belakang";
+"description" = "deskripsi";
+"Bank Recipient" = "Bank Penerima";
+//"Order Number" = "Nomor Order";
+"Order #" = "Order #";
+"Transaction Information" = "Informasi transaksi";
+"Go to Notification Setting" = "Ke Pengaturan Notifikasi";
+"Transfer Method" = "Metode Pembayaran";
+"Settings" = "Pengaturan";
+"Set as Default" = "Atur secara otomatis";
+"Remove" = "Hapus";
+"Bank Account Information" = "Informasi Akun Bank";
+"Bank Name" = "Nama Bank";
+"Edit" = "Ubah";
+"My Account" = "Akun";
+"Holder Account Number" = "No. Rekening Anda";
+"To change the notification setting, Go to the notification panel." = "Untuk merubah Pengaturan Notifikasi, silakan ubah di Fitur Notifikasi.";
+"Transfer Amount" = "Jumlah transfer";
+"Attachment" = "Lampiran";
+"title" = "Titel";
+"EXIT" = "KELUAR";
+"No address available. Please add address to checkout." ="Tidak ada alamat yang tersedia, silakan tambah alamat untuk checkout.";
+"A new version of the The Executive App is available. Please update to access the latest features." = "Versi baru untuk Aplikasi The Executive telah tersedia. Mohon perbaharui untuk mengakses fitur-fitur terbaru.";
+"New Version" = "Versi baru";
+
+// Main Storyboard
+"HOME" = "HOME";
+"CONTINUE" = "LANJUTKAN";
+"Search" = "Cari";
+
+// MyAccount Storyboard
+"Share" = "Bagikan";
+"Color" = "Warna";
+"You Might Also Like" = "You Might Also Like";
+
+// Shop Storyboard
+"S O R T  B Y" = "ATUR BERDASARKAN";
+"F I L T E R  B Y" = "F I L T E R"; // check
+"Price Range" = "Range Harga";
+"A P P L Y" = "T E R A P K A N";
+"FILTER" = "FILTER"; // check
+
+// MyCart Storyboard
+"APPLY" = "TERAPKAN";
+"Promo Code" = "Kode Promo";
+"Enter your Promo Code" = "Masukan Kode Promo";
+"The promo code you entered is not valid." = "Kode promo yang dimasukan salah.";
+"Product Total" = "Total Produk";
+"Discount" = "Diskon";
+"Grand Total" = "Total keseluruhan";
+
+// Order Storyboard
+"Return From" = " Dari";
+"Return To" = " Kepada";
+"Return" = "Retur";
+"Select Reason" = "Pilih Alasan";
+"Payment ID" = "ID Pembayaran";
+"Delivered" = "Terkirim";
+"Return Qty" = "Jumlah barang retur";
+"Products" = "Produk";
+//"You have not placed an order." = "Anda belum memasukan produk ke Tas Belanja.";
+"You have not placed an order." = "Anda belum melakukan pemesanan.";
+"Shipping Cost" = "Biaya Pengiriman";
+"R E T U R N" = "R E T U R";
+"Return Mode" = "Mode Pengembalian";
+"Return via courier (ex: JNE, RPX, SAP, etc.)" = "Kembalikan melalui kurir (mis: JNE, RPX, SAP, dll.)";
+"Return via Alfamart (Free)" = "Kembali via Alfamart (Gratis)";
+
+// Checkout Storyboard
+"CONFIRM ORDER & PAY NOW" = "LAKUKAN PEMBAYARAN";
+"VIEW ORDER" = "LIHAT PESANAN";
+"Items" = "Barang";
+
+"Your wishlist is empty" = "Daftar Wishlist anda kosong";
+"Your Cart is empty!" = "Tas Belanja anda kosong!";
