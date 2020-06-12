@@ -471,16 +471,22 @@ extension ProductDetailViewModel {
             }
             cartItemDict["quote_id"] = token as AnyObject
             
-            if let colorAttributeID = colorOptionID {
+            if let colorAttributeID = colorOptionID, let colorOptValue = colorOptionsValue {
                 colorOptionDict["option_id"] = "\(colorAttributeID)" as AnyObject
-                colorOptionDict["option_value"] = colorOptionsValue as AnyObject
+                colorOptionDict["option_value"] = colorOptValue as AnyObject
                 configurableItemArray.insert(colorOptionDict, at: 0)
             }
             
-            if let sizeAttributeID = sizeOptionID {
+            if let sizeAttributeID = sizeOptionID, let sizeOptValue = sizeOptionValue {
                 sizeOptionDict["option_id"] = "\(sizeAttributeID)" as AnyObject
-                sizeOptionDict["option_value"] = "\(sizeOptionValue!)" as AnyObject
-                configurableItemArray.insert(sizeOptionDict, at: 1)
+                sizeOptionDict["option_value"] = "\(sizeOptValue)" as AnyObject
+                
+                //Write this condition to stop the crash on Add To Bag.......
+                if configurableItemArray.count == 0 {
+                    configurableItemArray.insert(sizeOptionDict, at: 0)
+                } else {
+                    configurableItemArray.insert(sizeOptionDict, at: 1)
+                }
             }
             
             extentionAttributeDict["Configurable_item_options"] = configurableItemArray
