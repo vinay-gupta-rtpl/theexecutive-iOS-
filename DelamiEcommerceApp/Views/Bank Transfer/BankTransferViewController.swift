@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FirebaseAuth
+
 class BankTransferViewController: ImagePickerController {
     
     // MARK: - Outlets
@@ -101,6 +105,10 @@ class BankTransferViewController: ImagePickerController {
             self?.showAlertWith(title: AlertTitle.none, message: response, handler: { _ in
                 self?.navigationController?.popViewController(animated: true)
             })
+            
+            let bankTransfer: [String: Any] = [API.FacebookEventDicKeys.userEmail.rawValue: self?.emailAddressTextField ?? ""]
+            AppEvents.logEvent(.init(FacebookEvents.bankTransfer.rawValue), parameters: bankTransfer)
+            
             }, failure: { [weak self] (error) in
                 Loader.shared.hideLoading()
                 if let errorMsg = error.userInfo["message"] {

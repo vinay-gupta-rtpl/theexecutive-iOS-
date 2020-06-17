@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FirebaseAuth
 
 class ProductDetailContainerViewController: DelamiViewController {
     // MARK: - Variables
@@ -34,6 +37,7 @@ class ProductDetailContainerViewController: DelamiViewController {
         addChildViewController(productDetailPageViewController)
         view.addSubview(productDetailPageViewController.view)
         productDetailPageViewController.didMove(toParentViewController: self)
+        methodToTriggerAEvent()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -49,6 +53,14 @@ class ProductDetailContainerViewController: DelamiViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    //Method To Triggered the Event For Searched Products with Keywprds....
+    fileprivate func methodToTriggerAEvent() {
+        let productDetailDic: [String: Any] = [
+            API.FacebookEventDicKeys.productname.rawValue: catalogVM.products.value?[selectedProductIndex].name ?? "",
+            API.FacebookEventDicKeys.productSku.rawValue: catalogVM.products.value?[selectedProductIndex].sku ?? ""]
+        AppEvents.logEvent(.init(FacebookEvents.productDetail.rawValue), parameters: productDetailDic)
     }
 }
 

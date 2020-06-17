@@ -63,3 +63,16 @@ class Configuration {
         return Environment.production
     }
 }
+
+enum FacebookEvents: String {
+    case searched = "SEARCHED"
+    case addToCart = "ADDED TO CART"
+    case purchased  = "PURCHASED"
+    case productDetail = "PRODUCT DETAIL"
+    case addToWishlist = "ADDED TO WISHLIST"
+    case bankTransfer = "BANK TRANSFER"
+    case newsSubscribe = "SUBSCRIBE TO NEWSLETTER"
+    case contactUs = "CONTACT US"
+    case buyingGuide = "BUYING GUIDE"
+    case initiateCheckout = "INITIATED CHECKOUT"
+}

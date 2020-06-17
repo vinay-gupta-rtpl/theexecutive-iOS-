@@ -7,6 +7,9 @@
 //
 
 import Foundation
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FirebaseAuth
 
 enum NavigateFrom {
     case catelogPage
@@ -349,6 +352,13 @@ extension ProductDetailViewModel {
                 debugPrint("failure: jsonData is not available")
                 failure(nil)
             }
+            
+            //Triggered the Add To Cart Event after get success API Responce....
+            let cartItemsDic: [String: Any] = [
+                API.FacebookEventDicKeys.productname.rawValue: product.name ?? "",
+                API.FacebookEventDicKeys.productSku.rawValue: product.sku ?? "",
+                API.FacebookEventDicKeys.quantity.rawValue: quantity]
+            AppEvents.logEvent(.init(FacebookEvents.addToCart.rawValue), parameters: cartItemsDic)
         }, failure: { (error) in
             debugPrint(error?.localizedDescription ?? "Configuration API error")
             failure(error)
@@ -364,15 +374,19 @@ extension ProductDetailViewModel {
                 do {
                     weakSelf?.cartCount = try JSONDecoder().decode(CartModel.self, from: jsonData)
                     success((weakSelf?.cartCount)!)
-                    
                 } catch let msg {
                     debugPrint("JSON serialization error:" + "\(msg)")
-                    success (msg as AnyObject)
+                    success(msg as AnyObject)
                 }
             } else {
                 debugPrint("failure: jsonData is not available")
                 failure(nil)
             }
+            
+            //Triggered the Add To Cart Event after get success API Responce....
+            let cartItemsDic : [String:Any] = ["Product Name": product.name ?? "", "Product SKU": product.sku ?? "", "Quantity": quantity]
+            AppEvents.logEvent(.init(FacebookEvents.addToCart.rawValue), parameters: cartItemsDic)
+            
         }, failure: { (error) in
             debugPrint(error?.localizedDescription ?? "Configuration API error")
             failure(error)

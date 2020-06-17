@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FirebaseAuth
 
 enum OrderStatus {
     case success
@@ -81,6 +84,9 @@ class OrderStatusViewController: DelamiViewController {
     func configureUI() {
         switch orderStatus {
         case .success:
+            let purchased: [String: Any] = [API.FacebookEventDicKeys.orderId.rawValue: self.orderId ?? ""]
+            AppEvents.logEvent(.init(FacebookEvents.purchased.rawValue), parameters: purchased)
+            
             orderStatusImageView.image = #imageLiteral(resourceName: "order_success")
             orderStatusLabel.text = OrderStatusMessage.orderPleaced.localized()
             orderStatusMessage.numberOfLines = 0

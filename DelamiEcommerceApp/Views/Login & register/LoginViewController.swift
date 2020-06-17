@@ -239,9 +239,7 @@ class LoginViewController: DelamiViewController {
             Auth.auth().signIn(with: credential, completion: { (_, error) in
                 if let error = error {
                     print("Error is: \(error.localizedDescription)")
-                    self.showAlertWith(title: AlertTitle.error.localized(), message: error.localizedDescription, handler: { _ in
-                        
-                    })
+                    self.showAlertWith(title: AlertTitle.error.localized(), message: "Something went wrong please try again", handler: { _ in })
                     return
                 }
                 if self.loggedInUserInfo.count > 0 {

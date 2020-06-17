@@ -1,0 +1,15 @@
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+- Pods/Alamofire
+- Pods
+- DelamiEcommerceApp/Helper/RangeSlider/RangeSeekSlider.swift
+
+# parameterized rules can be customized from this configuration file
+line_length: 1200
+cyclomatic_complexity: 21
+
+line_length:
+- 300 # warning
+- 1200 # error
+
+disabled_rules:
+- trailing_whitespace

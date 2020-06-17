@@ -9,6 +9,11 @@
 import UIKit
 import ZDCChat
 
+enum RequestType {
+    case search
+    case filter
+    case products
+}
 // MARK: - Protocols
 protocol SortActionDelegate: class {
     func applySelectedSortOrder()
@@ -67,12 +72,12 @@ class CatalogViewController: DelamiViewController {
             viewModel.requestForProductsForPromotionCategory()
         } else if  searchString != "" { // if any string available on searchField
             viewModel.searchProduct.value = searchString
-            viewModel.requestForProducts(from: "search")
+            viewModel.requestForProducts(from: .search)
             searchButton.setTitle("Cancel".localized().uppercased(), for: .normal)
             
         } else {
             searchButton.setTitle("Search".localized().uppercased(), for: .normal)
-            viewModel.requestForProducts(from: "products")
+            viewModel.requestForProducts(from: .products)
         }
         
         firstTimer = true
@@ -318,7 +323,7 @@ extension CatalogViewController: SortActionDelegate {
         viewModel.products.value?.removeAll()
         viewModel.pageNumber = 1
         removeNoDataAvailableMessage()
-        viewModel.requestForProducts(from: "filter")
+        viewModel.requestForProducts(from: .filter)
     }
 }
 
@@ -329,7 +334,7 @@ extension CatalogViewController: FilterActionDelegate {
         viewModel.pageNumber = 1
         firstTimer = false
         removeNoDataAvailableMessage()
-        viewModel.requestForProducts(from: "filter")
+        viewModel.requestForProducts(from: .filter)
     }
 }
 // MARK: - Extention - Test field delegate
@@ -354,7 +359,7 @@ extension CatalogViewController: UITextFieldDelegate {
             viewModel.pageNumber = 1
             viewModel.searchProduct.value = searchField.text!
             removeNoDataAvailableMessage()
-            viewModel.requestForProducts(from: "search")
+            viewModel.requestForProducts(from: .search)
             viewModel.requestForSortByOptions()
             viewModel.requestForFilters()
             

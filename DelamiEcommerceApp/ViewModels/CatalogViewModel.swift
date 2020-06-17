@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FirebaseAuth
 
 extension Range where Bound == String.Index {
     var nsRange: NSRange {
@@ -96,9 +99,9 @@ extension CatalogViewModel {
                 pageNumber += 1
                 debugPrint("page number: \(pageNumber)")
                 if isFilterApplied {
-                    requestForProducts(from: "filter")
+                    requestForProducts(from: .filter)
                 } else {
-                    requestForProducts(from: "products")
+                    requestForProducts(from: .products)
                 }
             }
         }
@@ -125,12 +128,20 @@ extension CatalogViewModel {
 
 extension CatalogViewModel {
 
-    func callType(screen: String) -> Bool {
-        if screen == "search" {
+    func callType(screen: RequestType) -> Bool {
+        switch screen {
+        case .search:
             return false
-        } else {
+        case .filter:
+            return true
+        case .products:
             return true
         }
+//        if screen == "search" {
+//            return false
+//        } else {
+//            return true
+//        }
     }
     
     func requestForProductsForPromotionCategory() {
@@ -160,7 +171,7 @@ extension CatalogViewModel {
         })
     }
     
-    func requestForProducts(from: String) {
+    func requestForProducts(from: RequestType) {
         if !isAppending {
             Loader.shared.showLoading()
         }
@@ -187,6 +198,12 @@ extension CatalogViewModel {
                 }
             } else {
                 debugPrint("failure: jsonData is not available")
+            }
+            
+            if from == .search {
+                 //Triggered the Event For Searched Products with Keywprds....
+                let searched: [String: Any] = [API.FacebookEventDicKeys.keyword.rawValue: self.searchProduct.value]
+                AppEvents.logEvent(.init(FacebookEvents.searched.rawValue), parameters: searched)
             }
         }, failure: { (_) in
             Loader.shared.hideLoading()

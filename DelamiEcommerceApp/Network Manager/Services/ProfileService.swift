@@ -24,7 +24,7 @@ class ProfileService: BaseService {
         request.path = API.Path.login + "/?device_id=" + deviceId + "&device_type=ios" + "&registration_id=" + fcmToken
         request.parameters = ["username": email as AnyObject,
                               "password": password as AnyObject]
-        callWebServiceAlamofire(request, success: success, failure: failure)
+        self.callWebServiceAlamofire(request, success: success, failure: failure)
     }
     
     func doForgotPassword(email: String, success: @escaping ((_ response: AnyObject?) -> Void), failure: @escaping ((_ error: NSError?) -> Void)) {

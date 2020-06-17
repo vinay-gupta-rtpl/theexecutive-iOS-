@@ -6,6 +6,9 @@
 //  Copyright © 2018 Nish-Ranosys. All rights reserved.
 //
 import UIKit
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FirebaseAuth
 
 class CheckoutViewController: DelamiViewController {
     @IBOutlet weak var checkoutTableView: UITableView!
@@ -19,6 +22,7 @@ class CheckoutViewController: DelamiViewController {
     var checkoutViewModel = CheckoutViewModel()
     var sectionTitleArray = [ConstantString.shippingAddress.localized(), "", ConstantString.shippingMethod.localized(), ConstantString.paymentMethod.localized(), ConstantString.totals]
     var selectedCartAddressAndShipping: CartAddressAndShippingModel?
+    var subTotalWithDiscount: Double?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -77,7 +81,14 @@ class CheckoutViewController: DelamiViewController {
         }
         
         Loader.shared.showLoading()
+        
         checkoutViewModel.placeOrder(success: { [weak self] (orderID) in
+            //Trigger a Event To initiate checkout.....
+            let initialtedCheckout: [String: Any] = [
+                API.FacebookEventDicKeys.orderId.rawValue: orderID ?? 0,
+                API.FacebookEventDicKeys.cartAmmount.rawValue: self?.subTotalWithDiscount ?? 0.0]
+            AppEvents.logEvent(.init(FacebookEvents.initiateCheckout.rawValue), parameters: initialtedCheckout)
+            
             self?.navigateToProceedOrder(orderID: orderID, selectedPayment: selectedPayment)
             }, failure: { (error) in
                 Loader.shared.hideLoading()
