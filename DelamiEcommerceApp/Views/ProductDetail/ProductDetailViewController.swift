@@ -9,6 +9,9 @@
 import UIKit
 import SafariServices
 import ZDCChat
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FirebaseAuth
 
 protocol CartCountUpdate: class {
     func countUpdate(count: Int)
@@ -87,10 +90,16 @@ class ProductDetailViewController: DelamiViewController {
                 Loader.shared.hideLoading()
                 self?.showAlertWith(title: AlertTitle.success.localized(), message: (self?.productModel?.name ?? ConstantString.product.localized()) + " " +  AlertSuccessMessage.Product.addedToWishlist.localized(), handler: {  _ in
                 })
+                
+                //Triggered the Add To Wishlist Event after get success API Responce....
+                let wishListItemsDic: [String: Any] = [
+                    API.FacebookEventDicKeys.productname.rawValue: self?.productModel?.name ?? "",
+                    API.FacebookEventDicKeys.productSku.rawValue: self?.productModel?.sku ?? ""]
+                AppEvents.logEvent(.init(FacebookEvents.addToWishlist.rawValue), parameters: wishListItemsDic)
                 }, failure: { (_) in
                     Loader.shared.hideLoading()
             })
-        } else {
+        } else {    
             debugPrint("product id is not available")
         }
     }

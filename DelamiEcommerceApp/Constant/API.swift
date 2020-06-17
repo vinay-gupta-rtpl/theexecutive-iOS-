@@ -102,4 +102,14 @@ struct API {
     struct Token {
         static let adminToken = Configuration().environment.token
     }
+    
+    enum FacebookEventDicKeys: String {
+        case productname = "Product Name"
+        case productSku = "Product SKU"
+        case quantity = "Quantity"
+        case keyword = "Keyword"
+        case orderId = "Order Id"
+        case userEmail = "User Email"
+        case cartAmmount = "Cart Amount"
+    }
 }

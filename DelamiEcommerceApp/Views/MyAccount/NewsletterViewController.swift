@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FirebaseAuth
 
 class NewsLetterViewController: DelamiViewController {
     
@@ -32,6 +35,9 @@ class NewsLetterViewController: DelamiViewController {
             weakSelf?.showAlertWith(title: AlertTitle.success.localized(), message: response, handler: {_ in
                 self.navigationController?.popViewController(animated: true)
             })
+            
+            let subscribeNews: [String: Any] = [API.FacebookEventDicKeys.userEmail.rawValue: self.emailTextField]
+            AppEvents.logEvent(.init(FacebookEvents.newsSubscribe.rawValue), parameters: subscribeNews)
             
         }, failure: { [weak self] (error) in
             Loader.shared.hideLoading()

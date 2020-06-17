@@ -416,6 +416,12 @@ extension ShoppingBagViewController: CheckoutCall {
                         return
                     }
                     checkoutVC.selectedCartAddressAndShipping = viewModelShoppingCart.cartAddressAndShippingModel
+                    
+                    if let grandTotal =  self.viewModelShoppingCart.cartTotals?.subtotalWithDiscount {
+                        let price = String(grandTotal)
+                        let cartTotal = price.changeStringToINR()
+                        checkoutVC.subTotalWithDiscount = Double(cartTotal)
+                    }
                     let checkoutNav = UINavigationController(rootViewController: checkoutVC)
                     self.present(checkoutNav, animated: true, completion: nil)
                 }

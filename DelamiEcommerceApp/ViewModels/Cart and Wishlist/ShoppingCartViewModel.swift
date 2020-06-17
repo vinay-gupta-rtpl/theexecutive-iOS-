@@ -86,9 +86,7 @@ extension ShoppingCartViewModel {
             if let jsonData = response as? Data {
                 do {
                     self?.cartTotals = try JSONDecoder().decode(CartTotalsModel.self, from: jsonData)
-//                    if let subTotal = result.totals.filter({ $0.code == "subtotal" }).first {
-//                        self?.grandTotal = subTotal.value
-//                    }
+                    print(self?.cartTotals?.subtotalWithDiscount ?? 0.0)
                     success(self?.cartTotals as AnyObject)
                 } catch let msg {
                     debugPrint("JSON serialization error:" + "\(msg)")

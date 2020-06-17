@@ -9,6 +9,10 @@ import UIKit
 import FBSDKLoginKit
 import GoogleSignIn
 import UserNotifications
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FirebaseAuth
+
 
 class MyAccountViewController: UITableViewController {
     @IBOutlet var myAccountTableView: UITableView!
@@ -231,14 +235,18 @@ extension MyAccountViewController {
             
         case MyAccountCellType.buyingGuide.rawValue:
             if let redirectionUrl = AppConfigurationModel.sharedInstance.buyingGuideUrl {
+                let buyGuide: [String: Any] = [API.FacebookEventDicKeys.userEmail.rawValue: informationModel?.email ?? ""]
+                AppEvents.logEvent(.init(FacebookEvents.buyingGuide.rawValue), parameters: buyGuide)
                 openSafariwithUrl(url: redirectionUrl, title: NavigationTitle.buyingGuide.localized())
             }
             
         case MyAccountCellType.contactUs.rawValue:
-           if let redirectionUrl = AppConfigurationModel.sharedInstance.contactUsUrl {
+            if let redirectionUrl = AppConfigurationModel.sharedInstance.contactUsUrl {
+                let contactUS: [String: Any] = [API.FacebookEventDicKeys.userEmail.rawValue: informationModel?.email ?? ""]
+                AppEvents.logEvent(.init(FacebookEvents.contactUs.rawValue), parameters: contactUS)
                 openSafariwithUrl(url: redirectionUrl, title: NavigationTitle.contactUs.localized())
             }
-            
+                
         case MyAccountCellType.setting.rawValue:
             guard let settingVC = StoryBoard.myAccountInfo.instantiateViewController(withIdentifier: SBIdentifier.setting) as?  SettingViewController else {
                 return

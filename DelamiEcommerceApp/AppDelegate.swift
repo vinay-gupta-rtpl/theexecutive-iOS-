@@ -14,7 +14,7 @@ import Fabric
 import Crashlytics
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+    class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     var isVersionUpdateAvailable = false
@@ -82,32 +82,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message)
-        //or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
-    }
-    
-    func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state
-        //in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-        
-    }
-    
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
-    }
-    
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
         
         // show badge count 0 when enter in app.
+        
+        //Activate a Event Tracker For Facebook Analytics...
+        AppEvents.activateApp()
         application.applicationIconBadgeNumber = 0
-    }
-    
-    func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 }
 
@@ -149,13 +131,18 @@ extension AppDelegate {
         
         Messaging.messaging().apnsToken = deviceToken
         
-        let deviceID = NSData(data: deviceToken)
+        /*let deviceID = NSData(data: deviceToken)
         let deviceTokenString = "\(deviceID)"
             .trimmingCharacters(in: CharacterSet(charactersIn: "<>"))
             .replacingOccurrences(of: " ", with: "")
         print("deviceTokenString : \(deviceTokenString)")
         
+        UserDefaults.instance.setDeviceToken(value: deviceTokenString)*/
+        
+        let deviceTokenString = deviceToken.map { String(format: "%02.2hhx", $0) }.joined()
+        //We have to save this to just chek that we have to ask permission...
         UserDefaults.instance.setDeviceToken(value: deviceTokenString)
+        print("Device Token \(deviceTokenString)")
         
         Messaging.messaging().delegate = self
         //        self.setNotificationCategory() // set Notification category button for eg. Open/Cancel etc. when click on notification.
@@ -204,7 +191,6 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         print("didReceive")
         completionHandler()
     }
-    
     
     func parseUserInfoAndShowPushMessage(_ userInfo: [AnyHashable: Any]) {
         if (userInfo["aps"] as? [String: AnyObject]) != nil {
@@ -340,4 +326,3 @@ extension UIApplication {
         return controller
     }
 }
-
