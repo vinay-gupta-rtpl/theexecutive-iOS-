@@ -15,9 +15,11 @@ target 'DelamiEcommerceApp' do
     pod 'GoogleSignIn'
     pod 'FBSDKLoginKit', '~> 6.2.0'
     pod 'FBSDKCoreKit', '~> 6.2.0'
+    pod 'Firebase/Crashlytics'
+    pod 'Firebase/Analytics'
     
-    pod 'Fabric'
-    pod 'Crashlytics'
+#    pod 'Fabric'
+#    pod 'Crashlytics'
 	
     pod 'AlamofireImage', '~> 3.1'
     

@@ -41,20 +41,6 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>Configuration</key>
 	<string>$(CONFIGURATION)</string>
-	<key>Fabric</key>
-	<dict>
-		<key>APIKey</key>
-		<string>1fc576d1796a2e0f1a4b6e67ba062ae227b4440c</string>
-		<key>Kits</key>
-		<array>
-			<dict>
-				<key>KitInfo</key>
-				<dict/>
-				<key>KitName</key>
-				<string>Crashlytics</string>
-			</dict>
-		</array>
-	</dict>
 	<key>FacebookAppID</key>
 	<string>4602416863117943</string>
 	<key>FacebookDisplayName</key>

@@ -7,9 +7,6 @@ PODS:
     - AppAuth/ExternalUserAgent (= 1.3.0)
   - AppAuth/Core (1.3.0)
   - AppAuth/ExternalUserAgent (1.3.0)
-  - Crashlytics (3.14.0):
-    - Fabric (~> 1.10.2)
-  - Fabric (1.10.2)
   - FBSDKCoreKit (6.2.0):
     - FBSDKCoreKit/Basics (= 6.2.0)
     - FBSDKCoreKit/Core (= 6.2.0)
@@ -20,6 +17,8 @@ PODS:
     - FBSDKLoginKit/Login (= 6.2.0)
   - FBSDKLoginKit/Login (6.2.0):
     - FBSDKCoreKit (~> 6.2.0)
+  - Firebase/Analytics (6.19.0):
+    - Firebase/Core
   - Firebase/Auth (6.19.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 6.4.3)
@@ -28,6 +27,9 @@ PODS:
     - FirebaseAnalytics (= 6.3.1)
   - Firebase/CoreOnly (6.19.0):
     - FirebaseCore (= 6.6.4)
+  - Firebase/Crashlytics (6.19.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 4.0.0-beta.5)
   - Firebase/Messaging (6.19.0):
     - Firebase/CoreOnly
     - FirebaseMessaging (~> 4.3.0)
@@ -60,6 +62,11 @@ PODS:
     - GoogleUtilities/Logger (~> 6.5)
     - nanopb (~> 0.3.901)
   - FirebaseCoreDiagnosticsInterop (1.2.0)
+  - FirebaseCrashlytics (4.0.0-beta.5):
+    - FirebaseAnalyticsInterop (~> 1.2)
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstallations (~> 1.1)
+    - PromisesObjC (~> 1.2)
   - FirebaseInstallations (1.1.0):
     - FirebaseCore (~> 6.6)
     - GoogleUtilities/UserDefaults (~> 6.5)
@@ -131,12 +138,12 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.0)
   - AlamofireImage (~> 3.1)
-  - Crashlytics
-  - Fabric
   - FBSDKCoreKit (~> 6.2.0)
   - FBSDKLoginKit (~> 6.2.0)
+  - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Core
+  - Firebase/Crashlytics
   - Firebase/Messaging
   - GoogleSignIn
   - SwiftLint
@@ -147,8 +154,6 @@ SPEC REPOS:
     - Alamofire
     - AlamofireImage
     - AppAuth
-    - Crashlytics
-    - Fabric
     - FBSDKCoreKit
     - FBSDKLoginKit
     - Firebase
@@ -159,6 +164,7 @@ SPEC REPOS:
     - FirebaseCore
     - FirebaseCoreDiagnostics
     - FirebaseCoreDiagnosticsInterop
+    - FirebaseCrashlytics
     - FirebaseInstallations
     - FirebaseInstanceID
     - FirebaseMessaging
@@ -179,8 +185,6 @@ SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
   AppAuth: 73574f3013a1e65b9601a3ddc8b3158cce68c09d
-  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
-  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
   FBSDKCoreKit: a7bb9f5ac56c1e11d5f8ae0b90a3610f8744b43a
   FBSDKLoginKit: 5877adb09cc249870c352d92ecc3246cb925c771
   Firebase: d55ddb0e0bb3207166cddc028647833d8a1b5b6f
@@ -191,6 +195,7 @@ SPEC CHECKSUMS:
   FirebaseCore: ed0a24c758a57c2b88c5efa8e6a8195e868af589
   FirebaseCoreDiagnostics: e9b4cd8ba60dee0f2d13347332e4b7898cca5b61
   FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
+  FirebaseCrashlytics: 7c95218730d1debf493e987233c7b41dd7ba1329
   FirebaseInstallations: 575cd32f2aec0feeb0e44f5d0110a09e5e60b47b
   FirebaseInstanceID: 7ee0d6777013bb952f377b41965bf132b6a075be
   FirebaseMessaging: 4ec33842d36b3319e062e51fb8b35a74f726950d
@@ -207,6 +212,6 @@ SPEC CHECKSUMS:
   SwiftLint: 55e96a4a4d537d4a3156859fc1c54bd24851a046
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
 
-PODFILE CHECKSUM: 5fec818bf3e3668eed0646cfcf7c4b675b679467
+PODFILE CHECKSUM: 8b5f1d2cb2b28e788973bde05c7aa7c6d34b673c
 
 COCOAPODS: 1.9.1

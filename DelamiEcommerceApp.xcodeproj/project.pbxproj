@@ -53,7 +53,6 @@
 		5865BFAE20C56FC7009ABB79 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59483D4F207B3D52000032D0 /* Configuration.swift */; };
 		5865BFAF20C56FE3009ABB79 /* iReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FEB1CD203ECFEB00BBFC29 /* iReachability.swift */; };
 		5865BFB320C571A3009ABB79 /* NotificationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5865BFB220C571A3009ABB79 /* NotificationServices.swift */; };
-		5865BFB820C69887009ABB79 /* Staging-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5865BFB720C69886009ABB79 /* Staging-GoogleService-Info.plist */; };
 		586899A52063D90900414863 /* CellIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586899A42063D90900414863 /* CellIdentifier.swift */; };
 		586A1418208885450045E38C /* DelamiTabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586A1417208885450045E38C /* DelamiTabBarViewModel.swift */; };
 		586FC1ED20BC159C004CA708 /* BankTransferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586FC1EC20BC159C004CA708 /* BankTransferViewModel.swift */; };
@@ -196,6 +195,8 @@
 		BFCADC1520907D4900081FC7 /* ZDCChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCADC1120907D4700081FC7 /* ZDCChat.framework */; };
 		BFCADC1620907D4900081FC7 /* ZDCChatAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCADC1220907D4800081FC7 /* ZDCChatAPI.framework */; };
 		BFCADC1720907D4900081FC7 /* ZDCChatStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFCADC1320907D4900081FC7 /* ZDCChatStrings.bundle */; };
+		C35292E224C1DE7C001B0775 /* Staging-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C35292E024C1DE7C001B0775 /* Staging-GoogleService-Info.plist */; };
+		C354E08424C59A5F0047B0D6 /* GoogleServiceInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = C354E08324C59A5F0047B0D6 /* GoogleServiceInfo.plist */; };
 		C42045E67681F28D904A71DD /* Pods_DelamiEcommerceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26A50528BC15E30AD4F8278 /* Pods_DelamiEcommerceApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -296,7 +297,6 @@
 		5865BF9220C51C7C009ABB79 /* NotificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		5865BF9F20C559CB009ABB79 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		5865BFB220C571A3009ABB79 /* NotificationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationServices.swift; sourceTree = "<group>"; };
-		5865BFB720C69886009ABB79 /* Staging-GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Staging-GoogleService-Info.plist"; sourceTree = "<group>"; };
 		586899A42063D90900414863 /* CellIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifier.swift; sourceTree = "<group>"; };
 		586A1417208885450045E38C /* DelamiTabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelamiTabBarViewModel.swift; sourceTree = "<group>"; };
 		586FC1EC20BC159C004CA708 /* BankTransferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankTransferViewModel.swift; sourceTree = "<group>"; };
@@ -467,6 +467,8 @@
 		BFCADC1220907D4800081FC7 /* ZDCChatAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZDCChatAPI.framework; sourceTree = "<group>"; };
 		BFCADC1320907D4900081FC7 /* ZDCChatStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZDCChatStrings.bundle; sourceTree = "<group>"; };
 		C26A50528BC15E30AD4F8278 /* Pods_DelamiEcommerceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelamiEcommerceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35292E024C1DE7C001B0775 /* Staging-GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Staging-GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C354E08324C59A5F0047B0D6 /* GoogleServiceInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoogleServiceInfo.plist; sourceTree = "<group>"; };
 		C6B9384688DA8026142558E8 /* Pods_NotificationContentExtention.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationContentExtention.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7077235E9E4A729D75CFFAF /* Pods_DelamiEcommerceAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelamiEcommerceAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A4B14595E89F832C047BFE /* Pods_NotificationServiceExtention.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationServiceExtention.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -589,7 +591,8 @@
 		5858FCF02100BD4A009E89CE /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				5865BFB720C69886009ABB79 /* Staging-GoogleService-Info.plist */,
+				C354E08324C59A5F0047B0D6 /* GoogleServiceInfo.plist */,
+				C35292E024C1DE7C001B0775 /* Staging-GoogleService-Info.plist */,
 				5858FCEE2100AF19009E89CE /* LiveGoogleServiceInfo.plist */,
 			);
 			path = Firebase;
@@ -1212,12 +1215,14 @@
 				A156D07D0B5E35134EFB64C1 /* [CP] Check Pods Manifest.lock */,
 				59C16326202DC6B2001D1F54 /* Sources */,
 				59C16327202DC6B2001D1F54 /* Frameworks */,
+				C35292E424C1EE1B001B0775 /* Setup Fabrics Info-Plist Selection Run Script */,
 				59C16328202DC6B2001D1F54 /* Resources */,
+				C353D3FF24C554AD009ABC2E /* Automatic upload dsym Run Script */,
 				A7DDDCC3B616B46A6D4545EB /* [CP] Embed Pods Frameworks */,
 				A67D55D35C68B66A25643670 /* [CP] Copy Pods Resources */,
-				59487BDA203EA9FD00768C12 /* ShellScript */,
-				875C55BB20930391000BF0FA /* ShellScript */,
+				59487BDA203EA9FD00768C12 /* Run Script */,
 				5865BE9D20C4FFCD009ABB79 /* Embed App Extensions */,
+				C35292D824C1CB18001B0775 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1357,22 +1362,23 @@
 				59487BD9203EA95A00768C12 /* .swiftlint.yml in Resources */,
 				59695922206264BA00EDC81B /* Shop.storyboard in Resources */,
 				BFCADC1720907D4900081FC7 /* ZDCChatStrings.bundle in Resources */,
-				5858FCEF2100AF19009E89CE /* LiveGoogleServiceInfo.plist in Resources */,
 				595BBAE92063B6BE00A31D95 /* OpenSans-Bold.ttf in Resources */,
 				BFCADC1420907D4900081FC7 /* ZDCChat.bundle in Resources */,
 				595BBAEA2063B6BE00A31D95 /* OpenSans-Regular.ttf in Resources */,
 				58D54B6120737549003FFD69 /* MobileCode.plist in Resources */,
 				58A26F7D22C2444F00D286D5 /* CountryCodes.json in Resources */,
 				595BBAEB2063B6BE00A31D95 /* OpenSans-Semibold.ttf in Resources */,
+				C354E08424C59A5F0047B0D6 /* GoogleServiceInfo.plist in Resources */,
 				59390142206CFACB0064F2C8 /* MyCart.storyboard in Resources */,
 				59C16338202DC6B2001D1F54 /* LaunchScreen.storyboard in Resources */,
 				585B825020C7DDF400E589D3 /* Protocol_AccountChanges.rtf in Resources */,
 				596224312099930500D44B8C /* CartAndWishlistCell.xib in Resources */,
 				870CB55D20A464300048959B /* Localizable.strings in Resources */,
+				5858FCEF2100AF19009E89CE /* LiveGoogleServiceInfo.plist in Resources */,
+				C35292E224C1DE7C001B0775 /* Staging-GoogleService-Info.plist in Resources */,
 				59C16335202DC6B2001D1F54 /* Assets.xcassets in Resources */,
 				87FF6C9B20A94E5E00867D21 /* Order.storyboard in Resources */,
 				87974F2D20A5AE7F00B8BB11 /* MyAccount.storyboard in Resources */,
-				5865BFB820C69887009ABB79 /* Staging-GoogleService-Info.plist in Resources */,
 				58E124E620E0FEEF001D1010 /* MyAccountInfo.storyboard in Resources */,
 				59C16333202DC6B2001D1F54 /* Main.storyboard in Resources */,
 			);
@@ -1395,31 +1401,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		59487BDA203EA9FD00768C12 /* ShellScript */ = {
+		59487BDA203EA9FD00768C12 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
-		};
-		875C55BB20930391000BF0FA /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 1fc576d1796a2e0f1a4b6e67ba062ae227b4440c e429d8675a9b25a8f65dfd385472fc104be731f5d0771e261f86fcc6e0837120\n";
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		A156D07D0B5E35134EFB64C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1496,6 +1490,59 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DelamiEcommerceApp/Pods-DelamiEcommerceApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		C35292D824C1CB18001B0775 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		C35292E424C1EE1B001B0775 /* Setup Fabrics Info-Plist Selection Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Fabrics Info-Plist Selection Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "  GOOGLESERVICE_INFO_PLIST=${PROJECT_DIR}/DelamiEcommerceApp/Firebase\n  # Copy over the prod GoogleService-Info.plist for Release builds\n  # Copy over the prod GoogleService-Info.plist for Release builds\n  if [ \"${CONFIGURATION}\" == \"Debug Development\" ];\n  then\n    echo \"Development plist copied\"\n      cp -r \"$GOOGLESERVICE_INFO_PLIST/GoogleServiceInfo.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n  elif [ \"${CONFIGURATION}\" == \"Debug QAT\" ];\n  then\n    echo \"QAT plist copied\"\n      cp -r \"$GOOGLESERVICE_INFO_PLIST/GoogleServiceInfo.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n  elif [ \"${CONFIGURATION}\" == \"Debug UAT\" ];\n  then\n    echo \"UAT plist copied\"\n      cp -r \"$GOOGLESERVICE_INFO_PLIST/GoogleServiceInfo.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n  elif [ \"${CONFIGURATION}\" == \"Debug Production\" ];\n  then\n    echo \"Production plist copied\"\n      cp -r \"$GOOGLESERVICE_INFO_PLIST/LiveGoogleServiceInfo.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n  elif [ \"${CONFIGURATION}\" == \"Release Developent\" ];\n  then\n    echo \"Production DEV plist copied\"\n      cp -r \"$GOOGLESERVICE_INFO_PLIST/LiveGoogleServiceInfo.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n  elif [ \"${CONFIGURATION}\" == \"Release QAT\" ];\n  then\n    echo \"Production QAT plist copied\"\n      cp -r \"$GOOGLESERVICE_INFO_PLIST/LiveGoogleServiceInfo.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n  elif [ \"${CONFIGURATION}\" == \"Release UAT\" ];\n  then\n    echo \"Production UAT plist copied\"\n      cp -r \"$GOOGLESERVICE_INFO_PLIST/LiveGoogleServiceInfo.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n  elif [ \"${CONFIGURATION}\" == \"Release Production\" ];\n  then\n    echo \"Production Release plist copied\"\n      cp -r \"$GOOGLESERVICE_INFO_PLIST/LiveGoogleServiceInfo.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n  fi    \n";
+		};
+		C353D3FF24C554AD009ABC2E /* Automatic upload dsym Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Automatic upload dsym Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" == \"Debug Developent\" ];\nthen\n echo \"Development plist copied\"\n \"${PODS_ROOT}/FirebaseCrashlytics/run\" --google-service-plist \"${PROJECT_DIR}/DelamiEcommerceApp/Firebase/GoogleServiceInfo.plist\"\nelif [ \"${CONFIGURATION}\" == \"Debug QAT\" ];\nthen  \n echo \"QAT plist copied\"\n \"${PODS_ROOT}/FirebaseCrashlytics/run\" --google-service-plist \"${PROJECT_DIR}/DelamiEcommerceApp/Firebase/GoogleServiceInfo.plist\"\nelif [ \"${CONFIGURATION}\" == \"Debug UAT\" ];\nthen  \n echo \"UAT plist copied\"\n \"${PODS_ROOT}/FirebaseCrashlytics/run\" --google-service-plist \"${PROJECT_DIR}/DelamiEcommerceApp/Firebase/GoogleServiceInfo.plist\"\nelif [ \"${CONFIGURATION}\" == \"Debug Production\" ];\nthen\n echo \"Production plist copied\"\n \"${PODS_ROOT}/FirebaseCrashlytics/run\" --google-service-plist \"${PROJECT_DIR}/DelamiEcommerceApp/Firebase/LiveGoogleServiceInfo.plist\"\nelif [ \"${CONFIGURATION}\" == \"Release Development\" ];\n then  \n  echo \"QAT plist copied\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\" --google-service-plist \"${PROJECT_DIR}/DelamiEcommerceApp/Firebase/LiveGoogleServiceInfo.plist\"\nelif [ \"${CONFIGURATION}\" == \"Release QAT\" ];\n then  \n  echo \"UAT plist copied\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\" --google-service-plist \"${PROJECT_DIR}/DelamiEcommerceApp/Firebase/LiveGoogleServiceInfo.plist\"\nelif [ \"${CONFIGURATION}\" == \"Release UAT\" ];\n then\n  echo \"Production plist copied\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\" --google-service-plist \"${PROJECT_DIR}/DelamiEcommerceApp/Firebase/LiveGoogleServiceInfo.plist\"\nelif [ \"${CONFIGURATION}\" == \"Release Production\" ];\n then\n   echo \"Production plist copied\"\n   \"${PODS_ROOT}/FirebaseCrashlytics/run\" --google-service-plist \"${PROJECT_DIR}/DelamiEcommerceApp/Firebase/LiveGoogleServiceInfo.plist\"\nfi\n";
 		};
 		F5D2AB0D02EEFB6F23E5C918 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1812,13 +1859,13 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Sushma Vyas (2KLNR568TA)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 7TXH7K45RW;
+				DEVELOPMENT_TEAM = M8A7BYS443;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1841,10 +1888,10 @@
 				MARKETING_VERSION = 3.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.NotificationServiceExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp.NotificationServiceExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = DelamiServiceExtensionDev;
+				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcardDev;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1888,12 +1935,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sushma Vyas (2KLNR568TA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ranosys Technologies Pte Ltd";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 7TXH7K45RW;
+				DEVELOPMENT_TEAM = M8A7BYS443;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1916,10 +1963,10 @@
 				MARKETING_VERSION = 3.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.NotificationServiceExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp.NotificationServiceExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = DelamiServiceExtensionDev;
+				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1963,12 +2010,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sushma Vyas (2KLNR568TA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 7TXH7K45RW;
+				DEVELOPMENT_TEAM = M8A7BYS443;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1991,9 +2038,9 @@
 				MARKETING_VERSION = 3.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.NotificationServiceExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp.NotificationServiceExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = DelamiServiceExtensionDev;
+				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcardDev;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -2036,13 +2083,13 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sushma Vyas (2KLNR568TA)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: DELAMIBRANDS KHARISMA BUSANA, PT (7TXH7K45RW)";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = M8A7BYS443;
+				DEVELOPMENT_TEAM = 7TXH7K45RW;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -2067,7 +2114,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.NotificationServiceExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcardDev;
+				PROVISIONING_PROFILE_SPECIFIER = DelamiServiceExtensionAdhoc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -2132,7 +2179,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 3.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.NotificationServiceExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp.NotificationServiceExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcard;
 				SDKROOT = iphoneos;
@@ -2199,7 +2246,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 3.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.NotificationServiceExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp.NotificationServiceExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcard;
@@ -2267,7 +2314,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 3.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.NotificationServiceExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp.NotificationServiceExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcard;
 				SDKROOT = iphoneos;
@@ -2312,7 +2359,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Ranosys Technologies Pte Ltd";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: DELAMIBRANDS KHARISMA BUSANA, PT (7TXH7K45RW)";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
@@ -2378,13 +2425,13 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sushma Vyas (2KLNR568TA)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 7TXH7K45RW;
+				DEVELOPMENT_TEAM = M8A7BYS443;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -2407,10 +2454,10 @@
 				MARKETING_VERSION = 3.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.ContentExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp.ContentExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = DelamiContentExtensionDev;
+				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcardDev;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -2453,12 +2500,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sushma Vyas (2KLNR568TA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ranosys Technologies Pte Ltd";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 7TXH7K45RW;
+				DEVELOPMENT_TEAM = M8A7BYS443;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -2481,10 +2528,10 @@
 				MARKETING_VERSION = 3.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.ContentExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp.ContentExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = DelamiContentExtensionDev;
+				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -2527,12 +2574,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sushma Vyas (2KLNR568TA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 7TXH7K45RW;
+				DEVELOPMENT_TEAM = M8A7BYS443;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -2555,10 +2602,10 @@
 				MARKETING_VERSION = 3.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.ContentExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp.ContentExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = DelamiContentExtensionDev;
+				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcardDev;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -2600,13 +2647,13 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sushma Vyas (2KLNR568TA)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: DELAMIBRANDS KHARISMA BUSANA, PT (7TXH7K45RW)";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = M8A7BYS443;
+				DEVELOPMENT_TEAM = 7TXH7K45RW;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -2632,7 +2679,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.ContentExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcardDev;
+				PROVISIONING_PROFILE_SPECIFIER = DelamiContentExtensionAdhoc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -2696,7 +2743,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 3.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.ContentExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp.ContentExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcard;
@@ -2763,7 +2810,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 3.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.ContentExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp.ContentExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcard;
@@ -2830,7 +2877,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 3.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive.ContentExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp.ContentExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcard;
@@ -2875,7 +2922,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Ranosys Technologies Pte Ltd";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: DELAMIBRANDS KHARISMA BUSANA, PT (7TXH7K45RW)";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
@@ -2976,8 +3023,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DelamiEcommerceApp/DelamiEcommerceApp.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ranosys Technologies Pte Ltd";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = M8A7BYS443;
@@ -2990,10 +3037,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c9279b09-25f6-4014-acf2-1856ad480d58";
-				PROVISIONING_PROFILE_SPECIFIER = DelamiApp_Dev;
+				PROVISIONING_PROFILE_SPECIFIER = DelamiAppDist;
 				SWIFT_OBJC_BRIDGING_HEADER = "DelamiEcommerceApp/DelamiEcommerceApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -3093,11 +3140,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DelamiEcommerceApp/DelamiEcommerceApp.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: DELAMIBRANDS KHARISMA BUSANA, PT (7TXH7K45RW)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ranosys Technologies Pte Ltd";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: DELAMIBRANDS KHARISMA BUSANA, PT (7TXH7K45RW)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.1;
-				DEVELOPMENT_TEAM = M8A7BYS443;
+				DEVELOPMENT_TEAM = 7TXH7K45RW;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3110,7 +3157,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4caa4a34-10c8-46fd-a537-9a94aba320f4";
-				PROVISIONING_PROFILE_SPECIFIER = DelamiAppDist;
+				PROVISIONING_PROFILE_SPECIFIER = TheExecutiveAdhoc;
 				SWIFT_OBJC_BRIDGING_HEADER = "DelamiEcommerceApp/DelamiEcommerceApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3217,7 +3264,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DelamiEcommerceApp/DelamiEcommerceApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ranosys Technologies Pte Ltd";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = M8A7BYS443;
@@ -3230,10 +3277,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c9279b09-25f6-4014-acf2-1856ad480d58";
-				PROVISIONING_PROFILE_SPECIFIER = DelamiApp_Dev;
+				PROVISIONING_PROFILE_SPECIFIER = DelamiAppDist;
 				SWIFT_OBJC_BRIDGING_HEADER = "DelamiEcommerceApp/DelamiEcommerceApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -3333,11 +3380,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DelamiEcommerceApp/DelamiEcommerceApp.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: DELAMIBRANDS KHARISMA BUSANA, PT (7TXH7K45RW)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ranosys Technologies Pte Ltd";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: DELAMIBRANDS KHARISMA BUSANA, PT (7TXH7K45RW)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.1;
-				DEVELOPMENT_TEAM = M8A7BYS443;
+				DEVELOPMENT_TEAM = 7TXH7K45RW;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3350,7 +3397,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4caa4a34-10c8-46fd-a537-9a94aba320f4";
-				PROVISIONING_PROFILE_SPECIFIER = DelamiAppDist;
+				PROVISIONING_PROFILE_SPECIFIER = TheExecutiveAdhoc;
 				SWIFT_OBJC_BRIDGING_HEADER = "DelamiEcommerceApp/DelamiEcommerceApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3456,11 +3503,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DelamiEcommerceApp/DelamiEcommerceApp.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sushma Vyas (2KLNR568TA)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: DELAMIBRANDS KHARISMA BUSANA, PT (7TXH7K45RW)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.1;
-				DEVELOPMENT_TEAM = M8A7BYS443;
+				DEVELOPMENT_TEAM = 7TXH7K45RW;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3473,7 +3520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c9279b09-25f6-4014-acf2-1856ad480d58";
-				PROVISIONING_PROFILE_SPECIFIER = DelamiApp_Dev;
+				PROVISIONING_PROFILE_SPECIFIER = TheExecutiveAdhoc;
 				SWIFT_OBJC_BRIDGING_HEADER = "DelamiEcommerceApp/DelamiEcommerceApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -3573,7 +3620,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DelamiEcommerceApp/DelamiEcommerceApp.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: DELAMIBRANDS KHARISMA BUSANA, PT (7TXH7K45RW)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: DELAMIBRANDS KHARISMA BUSANA, PT (7TXH7K45RW)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.1;
@@ -3749,8 +3796,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DelamiEcommerceApp/DelamiEcommerceApp.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ankit Jayaswal (8566P2MZ38)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ranosys Technologies Pte Ltd";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = M8A7BYS443;
@@ -3763,10 +3810,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.DelamiEcommerceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c9279b09-25f6-4014-acf2-1856ad480d58";
-				PROVISIONING_PROFILE_SPECIFIER = DelamiApp_Dev;
+				PROVISIONING_PROFILE_SPECIFIER = DelamiAppDist;
 				SWIFT_OBJC_BRIDGING_HEADER = "DelamiEcommerceApp/DelamiEcommerceApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -3782,11 +3829,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DelamiEcommerceApp/DelamiEcommerceApp.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: DELAMIBRANDS KHARISMA BUSANA, PT (7TXH7K45RW)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ranosys Technologies Pte Ltd";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: DELAMIBRANDS KHARISMA BUSANA, PT (7TXH7K45RW)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.1;
-				DEVELOPMENT_TEAM = M8A7BYS443;
+				DEVELOPMENT_TEAM = 7TXH7K45RW;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3799,7 +3846,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.delamibrands.theexecutive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4caa4a34-10c8-46fd-a537-9a94aba320f4";
-				PROVISIONING_PROFILE_SPECIFIER = DelamiApp_Dev;
+				PROVISIONING_PROFILE_SPECIFIER = TheExecutiveAdhoc;
 				SWIFT_OBJC_BRIDGING_HEADER = "DelamiEcommerceApp/DelamiEcommerceApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3888,7 +3935,7 @@
 				5865BF7720C51C05009ABB79 /* Release Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Development";
+			defaultConfigurationName = "Release Production";
 		};
 		5865BF8920C51C26009ABB79 /* Build configuration list for PBXNativeTarget "NotificationContentExtention" */ = {
 			isa = XCConfigurationList;
@@ -3903,7 +3950,7 @@
 				5865BF9120C51C26009ABB79 /* Release Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Development";
+			defaultConfigurationName = "Release Production";
 		};
 		59C16325202DC6B2001D1F54 /* Build configuration list for PBXProject "DelamiEcommerceApp" */ = {
 			isa = XCConfigurationList;
@@ -3918,7 +3965,7 @@
 				59487BD4203EA4F700768C12 /* Release Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Development";
+			defaultConfigurationName = "Release Production";
 		};
 		59C16352202DC6B2001D1F54 /* Build configuration list for PBXNativeTarget "DelamiEcommerceApp" */ = {
 			isa = XCConfigurationList;
@@ -3933,7 +3980,7 @@
 				59487BD5203EA4F700768C12 /* Release Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Development";
+			defaultConfigurationName = "Release Production";
 		};
 		59C16355202DC6B2001D1F54 /* Build configuration list for PBXNativeTarget "DelamiEcommerceAppTests" */ = {
 			isa = XCConfigurationList;
@@ -3948,7 +3995,7 @@
 				59487BD6203EA4F700768C12 /* Release Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Development";
+			defaultConfigurationName = "Release Production";
 		};
 		59C16358202DC6B2001D1F54 /* Build configuration list for PBXNativeTarget "DelamiEcommerceAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -3963,7 +4010,7 @@
 				59487BD7203EA4F700768C12 /* Release Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Development";
+			defaultConfigurationName = "Release Production";
 		};
 /* End XCConfigurationList section */
 	};

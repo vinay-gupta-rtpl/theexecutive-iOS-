@@ -10,8 +10,7 @@ import UserNotifications
 import GoogleSignIn
 import FBSDKCoreKit
 import ZDCChat
-import Fabric
-import Crashlytics
+
 
 @UIApplicationMain
     class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -64,7 +63,7 @@ import Crashlytics
         ZDCChat.initialize(withAccountKey: Zendesk.accountKey)
         
         // FABRIC CRASHTLTICS
-        Fabric.with([Crashlytics.self])
+//        Fabric.with([Crashlytics.self])
         //            Crashlytics.sharedInstance().crash()
         
         // Integrate Push Notification
@@ -108,7 +107,8 @@ extension AppDelegate {
     }
     
     func congiureFireBase() {
-        FirebaseApp.configure(options: FirebaseOptions.init(contentsOfFile: Bundle.main.path(forResource: "LiveGoogleServiceInfo", ofType: "plist")!)!)
+        //FirebaseApp.configure(options: FirebaseOptions.init(contentsOfFile: Bundle.main.path(forResource: "LiveGoogleServiceInfo", ofType: "plist")!)!)
+        FirebaseApp.configure()
         Messaging.messaging().delegate = self
     }
     // Push notification Messages
