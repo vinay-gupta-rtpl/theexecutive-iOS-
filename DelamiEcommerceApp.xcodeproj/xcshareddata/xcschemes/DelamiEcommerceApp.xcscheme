@@ -92,7 +92,7 @@
       buildConfiguration = "Release Production">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Debug QAT"
+      buildConfiguration = "Debug Production"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
