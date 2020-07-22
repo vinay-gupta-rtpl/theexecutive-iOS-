@@ -243,7 +243,8 @@ extension MyAccountViewController {
         case MyAccountCellType.contactUs.rawValue:
             if let redirectionUrl = AppConfigurationModel.sharedInstance.contactUsUrl {
                 let contactUS: [String: Any] = [API.FacebookEventDicKeys.userEmail.rawValue: informationModel?.email ?? ""]
-                AppEvents.logEvent(.init(FacebookEvents.contactUs.rawValue), parameters: contactUS)
+//                AppEvents.logEvent(.init(FacebookEvents.contactUs.rawValue), parameters: contactUS)
+                AppEvents.logEvent(.contact, parameters: contactUS)
                 openSafariwithUrl(url: redirectionUrl, title: NavigationTitle.contactUs.localized())
             }
                 

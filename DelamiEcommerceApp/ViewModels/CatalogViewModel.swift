@@ -203,7 +203,8 @@ extension CatalogViewModel {
             if from == .search {
                  //Triggered the Event For Searched Products with Keywprds....
                 let searched: [String: Any] = [API.FacebookEventDicKeys.keyword.rawValue: self.searchProduct.value]
-                AppEvents.logEvent(.init(FacebookEvents.searched.rawValue), parameters: searched)
+//                AppEvents.logEvent(.init(FacebookEvents.searched.rawValue), parameters: searched)
+                AppEvents.logEvent(.searched, parameters: searched)
             }
         }, failure: { (_) in
             Loader.shared.hideLoading()

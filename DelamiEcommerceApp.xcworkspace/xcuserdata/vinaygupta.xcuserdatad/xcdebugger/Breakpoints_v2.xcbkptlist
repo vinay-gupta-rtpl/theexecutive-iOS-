@@ -27,8 +27,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "452"
             endingLineNumber = "452"
-            landmarkName = "prepareCartRequestParam(colorOptionID:colorOptionsValue:sizeOptionID:sizeOptionValue:product:userType:quantity:)"
-            landmarkType = "7">
+            landmarkName = "ProductDetailViewModel"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -50,33 +50,145 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C9812167-2B82-4CD2-8322-D0DDA5356785"
+            uuid = "2B12AE22-D487-49D6-88AA-8D29EA990FC9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DelamiEcommerceApp/Utils/AppUpdater.swift"
+            filePath = "DelamiEcommerceApp/Views/Login &amp; register/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "checkForVersionUpdate()"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "requestForSocialLogin(email:token:loginType:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "383F8344-068E-46AA-B4ED-1499DC4057D3"
+            uuid = "E6DF4A4A-3580-4C4C-9256-FD7C5CF5CFDC"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DelamiEcommerceApp/AppDelegate.swift"
+            filePath = "DelamiEcommerceApp/Views/Login &amp; register/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "AppDelegate"
-            landmarkType = "21">
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "facebookSignInAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A567518C-A07F-4677-927F-17ADEC8525EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DelamiEcommerceApp/Views/Login &amp; register/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "facebookSignInAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F84635F-228C-44B2-B37B-F757F3AA35D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DelamiEcommerceApp/Views/Login &amp; register/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
+            landmarkName = "facebookSignInAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3F84635F-228C-44B2-B37B-F757F3AA35D0 - 4e4695d8b0a6d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FBSDKLoginManagerLoginResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DelamiEcommerceApp.LoginViewController.facebookSignInAction(Any) -&gt; ()"
+                  moduleName = "DelamiEcommerceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vinaygupta/Documents/theexecutive-iOS-/DelamiEcommerceApp/Views/Login%20&amp;%20register/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "220"
+                  endingLineNumber = "220"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "3F84635F-228C-44B2-B37B-F757F3AA35D0 - 773023001aaf692f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FBSDKGraphRequestConnection&gt;, Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.FBSDKLoginManagerLoginResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DelamiEcommerceApp.LoginViewController.facebookSignInAction(Any) -&gt; ()"
+                  moduleName = "DelamiEcommerceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vinaygupta/Documents/theexecutive-iOS-/DelamiEcommerceApp/Views/Login%20&amp;%20register/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "103">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4247407A-BAE0-49B7-89E5-C09FD81D30E0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DelamiEcommerceApp/Views/Login &amp; register/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
+            landmarkName = "facebookSignInAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B48FB152-373B-470F-B419-2A098A861E1D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DelamiEcommerceApp/ViewModels/Product Detail/ProductDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "388"
+            endingLineNumber = "388"
+            landmarkName = "requestForAddToCartUser(colorOptionID:colorOptionsValue:sizeOptionID:sizeOptionValue:product:quantity:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BC5FB2A-517D-4DA9-AA90-FAD8006187B8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DelamiEcommerceApp/ViewModels/Product Detail/ProductDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "362"
+            endingLineNumber = "362"
+            landmarkName = "requestForAddToCartGuest(colorOptionID:colorOptionsValue:sizeOptionID:sizeOptionValue:product:quantity:success:failure:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

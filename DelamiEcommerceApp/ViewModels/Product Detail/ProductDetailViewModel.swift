@@ -358,7 +358,8 @@ extension ProductDetailViewModel {
                 API.FacebookEventDicKeys.productname.rawValue: product.name ?? "",
                 API.FacebookEventDicKeys.productSku.rawValue: product.sku ?? "",
                 API.FacebookEventDicKeys.quantity.rawValue: quantity]
-            AppEvents.logEvent(.init(FacebookEvents.addToCart.rawValue), parameters: cartItemsDic)
+//            AppEvents.logEvent(.init(FacebookEvents.addToCart.rawValue), parameters: cartItemsDic)
+            AppEvents.logEvent(.addedToCart, parameters: cartItemsDic)
         }, failure: { (error) in
             debugPrint(error?.localizedDescription ?? "Configuration API error")
             failure(error)
@@ -385,7 +386,8 @@ extension ProductDetailViewModel {
             
             //Triggered the Add To Cart Event after get success API Responce....
             let cartItemsDic : [String:Any] = ["Product Name": product.name ?? "", "Product SKU": product.sku ?? "", "Quantity": quantity]
-            AppEvents.logEvent(.init(FacebookEvents.addToCart.rawValue), parameters: cartItemsDic)
+//            AppEvents.logEvent(.init(FacebookEvents.addToCart.rawValue), parameters: cartItemsDic)
+            AppEvents.logEvent(.addedToCart, parameters: cartItemsDic)
             
         }, failure: { (error) in
             debugPrint(error?.localizedDescription ?? "Configuration API error")

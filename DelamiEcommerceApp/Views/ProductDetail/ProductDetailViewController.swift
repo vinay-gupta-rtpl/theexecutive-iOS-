@@ -95,7 +95,8 @@ class ProductDetailViewController: DelamiViewController {
                 let wishListItemsDic: [String: Any] = [
                     API.FacebookEventDicKeys.productname.rawValue: self?.productModel?.name ?? "",
                     API.FacebookEventDicKeys.productSku.rawValue: self?.productModel?.sku ?? ""]
-                AppEvents.logEvent(.init(FacebookEvents.addToWishlist.rawValue), parameters: wishListItemsDic)
+//                AppEvents.logEvent(.init(FacebookEvents.addToWishlist.rawValue), parameters: wishListItemsDic)
+                AppEvents.logEvent(.addedToWishlist, parameters: wishListItemsDic)
                 }, failure: { (_) in
                     Loader.shared.hideLoading()
             })

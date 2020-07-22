@@ -85,7 +85,8 @@ class OrderStatusViewController: DelamiViewController {
         switch orderStatus {
         case .success:
             let purchased: [String: Any] = [API.FacebookEventDicKeys.orderId.rawValue: self.orderId ?? ""]
-            AppEvents.logEvent(.init(FacebookEvents.purchased.rawValue), parameters: purchased)
+//            AppEvents.logEvent(.init(FacebookEvents.purchased.rawValue), parameters: purchased)
+            AppEvents.logEvent(.purchased, parameters: purchased)
             
             orderStatusImageView.image = #imageLiteral(resourceName: "order_success")
             orderStatusLabel.text = OrderStatusMessage.orderPleaced.localized()

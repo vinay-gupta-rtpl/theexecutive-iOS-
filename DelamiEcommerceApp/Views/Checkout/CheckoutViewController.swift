@@ -87,7 +87,8 @@ class CheckoutViewController: DelamiViewController {
             let initialtedCheckout: [String: Any] = [
                 API.FacebookEventDicKeys.orderId.rawValue: orderID ?? 0,
                 API.FacebookEventDicKeys.cartAmmount.rawValue: self?.subTotalWithDiscount ?? 0.0]
-            AppEvents.logEvent(.init(FacebookEvents.initiateCheckout.rawValue), parameters: initialtedCheckout)
+//            AppEvents.logEvent(.init(FacebookEvents.initiateCheckout.rawValue), parameters: initialtedCheckout)
+            AppEvents.logEvent(.initiatedCheckout, parameters: initialtedCheckout)
             
             self?.navigateToProceedOrder(orderID: orderID, selectedPayment: selectedPayment)
             }, failure: { (error) in

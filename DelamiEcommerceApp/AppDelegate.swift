@@ -108,7 +108,8 @@ extension AppDelegate {
     }
     
     func congiureFireBase() {
-        FirebaseApp.configure(options: FirebaseOptions.init(contentsOfFile: Bundle.main.path(forResource: "LiveGoogleServiceInfo", ofType: "plist")!)!)
+//        FirebaseApp.configure(options: FirebaseOptions.init(contentsOfFile: Bundle.main.path(forResource: "LiveGoogleServiceInfo", ofType: "plist")!)!)
+        FirebaseApp.configure()
         Messaging.messaging().delegate = self
     }
     // Push notification Messages

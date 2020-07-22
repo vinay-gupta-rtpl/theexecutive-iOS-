@@ -37,7 +37,8 @@ class NewsLetterViewController: DelamiViewController {
             })
             
             let subscribeNews: [String: Any] = [API.FacebookEventDicKeys.userEmail.rawValue: self.emailTextField]
-            AppEvents.logEvent(.init(FacebookEvents.newsSubscribe.rawValue), parameters: subscribeNews)
+//            AppEvents.logEvent(.init(FacebookEvents.newsSubscribe.rawValue), parameters: subscribeNews)
+            AppEvents.logEvent(.subscribe, parameters: subscribeNews)
             
         }, failure: { [weak self] (error) in
             Loader.shared.hideLoading()
